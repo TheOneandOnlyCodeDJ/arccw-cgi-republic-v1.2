@@ -172,64 +172,64 @@ SWEP.Attachments = {
         CorrectiveAng = Angle(0, 180, 0),
         CorrectivePos = Vector(0, 0, 0)
     }, 
-    {
-        PrintName = "Internal Compression",
-        DefaultAttName = "DC-17m Standard",
-        Slot = {"muzzle", "dlt19_muzzle", "dc15a_muzzle", "cr2_muzzle", "cr2c_muzzle", "stealth_muzzle", "b1120_muzzle"},
-    },      
-    {
-        PrintName = "Tactical",
-        DefaultAttName = "None",
-        Slot = {"tactical", "tac_pistol", "tac"},
-        VMScale = Vector(0.7, 0.7,0.7),
-        WMScale = Vector(0.7, 0.7,0.7),
-        Bone = "DC-17M", 
-        Offset = {
-            vpos = Vector(2.5, -17, -0.4),
-            vang = Angle(0, 90, -90),
-        },
-    }, 
-    {
-        PrintName = "Energization",
-        DefaultAttName = "Standard",
-        Slot = {"ammo"},
-    },
+    -- {
+    --     PrintName = "Internal Compression",
+    --     DefaultAttName = "DC-17m Standard",
+    --     Slot = {"muzzle", "dlt19_muzzle", "dc15a_muzzle", "cr2_muzzle", "cr2c_muzzle", "stealth_muzzle", "b1120_muzzle"},
+    -- },      
+    -- {
+    --     PrintName = "Tactical",
+    --     DefaultAttName = "None",
+    --     Slot = {"tactical", "tac_pistol", "tac"},
+    --     VMScale = Vector(0.7, 0.7,0.7),
+    --     WMScale = Vector(0.7, 0.7,0.7),
+    --     Bone = "DC-17M", 
+    --     Offset = {
+    --         vpos = Vector(2.5, -17, -0.4),
+    --         vang = Angle(0, 90, -90),
+    --     },
+    -- }, 
+    -- {
+    --     PrintName = "Energization",
+    --     DefaultAttName = "Standard",
+    --     Slot = {"ammo"},
+    -- },
     {
         PrintName = "Mode",
         DefaultAttName = "None",
         Slot = {"sw_mode", "sw_mode_sniper"},
-    },   
-    {
-        PrintName = "Perk",
-        DefaultAttName = "None",
-        Slot = "perk",
-    },
-    {
-        PrintName = "Internal Modifications",
-        DefaultAttName = "None",
-        Slot = "uc_fg",
-    },
-    {
-        PrintName = "Charm",
-        DefaultAttName = "None",
-        Slot = {"charm"},
-        Bone = "DC-17M",
-        VMScale = Vector(0.7, 0.7, 0.7),
-        Offset = {
-            vpos = Vector(1.3, -1, -0.2),
-            vang = Angle(0, 90, 200),
-        },
-    },     
-    {
-        PrintName = "Killcounter",
-        DefaultAttName = "None",
-        Slot = {"killcounter"},
-        Bone = "DC-17M",
-        Offset = {
-            vpos = Vector(1.45, -3.7, -0.2),
-            vang = Angle(0, 90, 200),
-        },
-    },      
+    } 
+    -- {
+    --     PrintName = "Perk",
+    --     DefaultAttName = "None",
+    --     Slot = "perk",
+    -- },
+    -- {
+    --     PrintName = "Internal Modifications",
+    --     DefaultAttName = "None",
+    --     Slot = "uc_fg",
+    -- },
+    -- {
+    --     PrintName = "Charm",
+    --     DefaultAttName = "None",
+    --     Slot = {"charm"},
+    --     Bone = "DC-17M",
+    --     VMScale = Vector(0.7, 0.7, 0.7),
+    --     Offset = {
+    --         vpos = Vector(1.3, -1, -0.2),
+    --         vang = Angle(0, 90, 200),
+    --     },
+    -- },     
+    -- {
+    --     PrintName = "Killcounter",
+    --     DefaultAttName = "None",
+    --     Slot = {"killcounter"},
+    --     Bone = "DC-17M",
+    --     Offset = {
+    --         vpos = Vector(1.45, -3.7, -0.2),
+    --         vang = Angle(0, 90, 200),
+    --     },
+    -- },      
 }
 
 -- Don't touch this unless you know what you're doing

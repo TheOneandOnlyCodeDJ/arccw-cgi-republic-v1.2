@@ -64,7 +64,7 @@ SWEP.RecoilSide = 0.25
 SWEP.RecoilRise = 0.45
 SWEP.Recoil = 0.75
 
-SWEP.Delay = 60 / 200
+SWEP.Delay = 60 / 300
 SWEP.Num = 1
 SWEP.Firemode = 1
 SWEP.Firemodes = {
@@ -194,109 +194,109 @@ SWEP.AttachmentElements = {
 }
 
 SWEP.Attachments = {
-    {
-        PrintName = "Sight",
-        DefaultAttName = "None",
-        Slot = "optic",
-        VMScale = Vector(0.9, 0.9, 0.9),
-        WMScale = Vector(0.9, 0.9, 0.9),
-        Bone = "DC15",
-        Offset = {
-            vpos = Vector(-0.05, -1.8, 5),
-            vang = Angle(90, 0, -90),
-        },
-        InstalledEles = {"e11_scope"},
-        CorrectiveAng = Angle(0, 0, 0),
-        CorrectivePos = Vector(0, 0, 0),
-    },
-    {
-        PrintName = "Muzzle",
-        DefaultAttName = "None",
-        Slot = {"muzzle", "dlt19_muzzle", "dc15a_muzzle", "cr2_muzzle", "cr2c_muzzle", "stealth_muzzle", "b1120_muzzle"},
-        Bone = "DC15",
-        InstalledEles = {"e11_muzzle"},
-        VMScale = Vector(1.3,1.3,1.3),
-        WMScale = Vector(1.3,1.3,1.3),
-        Offset = {
-            vpos = Vector(-0, -0.7, 16.5),
-            vang = Angle(90, 0, 0),
-        },
-    },
-    {
-        PrintName = "Tactical",
-        DefaultAttName = "None",
-        Slot = {"tactical", "tac_pistol"},
-        Bone = "DC15",
-        InstalledEles = {"e11_laser"},
-        VMScale = Vector(0.7,0.7,0.7),
-        WMScale = Vector(0.7,0.7,0.7),
-        Offset = {
-            vpos = Vector(1.05, -0.7, 12.5),
-            vang = Angle(90, 0, 0),
-        },
-    },
-    {
-        PrintName = "Foregrip",
-        DefaultAttName = "Standard",
-        Slot = {"foregrip", "republic_bipod"},
-        Bone = "DC15",
-        InstalledEles = {"e11_grip"},
-        ExcludeFlags = {"sw_bayonet1", "sw_bayonet2"},
-        VMScale = Vector(0.9, 0.9, 0.9),
-        WMScale = Vector(0.9, 0.9, 0.9),
-        Offset = {
-            vpos = Vector(-0, 0.47, 4.8),
-            vang = Angle(90, 0, -90),   
-        },  
-    },
-    {
-        PrintName = "Energization",
-        DefaultAttName = "Red Tibanna",
-        Slot = {"ammo", "special_ammo"}
-    },
-    {
-        PrintName = "Mode",
-        DefaultAttName = "None",
-        Slot = {"sw_mode", "sw_mode_rifle"},
-    },   
+    -- {
+    --     PrintName = "Sight",
+    --     DefaultAttName = "None",
+    --     Slot = "optic",
+    --     VMScale = Vector(0.9, 0.9, 0.9),
+    --     WMScale = Vector(0.9, 0.9, 0.9),
+    --     Bone = "DC15",
+    --     Offset = {
+    --         vpos = Vector(-0.05, -1.8, 5),
+    --         vang = Angle(90, 0, -90),
+    --     },
+    --     InstalledEles = {"e11_scope"},
+    --     CorrectiveAng = Angle(0, 0, 0),
+    --     CorrectivePos = Vector(0, 0, 0),
+    -- },
+    -- {
+    --     PrintName = "Muzzle",
+    --     DefaultAttName = "None",
+    --     Slot = {"muzzle", "dlt19_muzzle", "dc15a_muzzle", "cr2_muzzle", "cr2c_muzzle", "stealth_muzzle", "b1120_muzzle"},
+    --     Bone = "DC15",
+    --     InstalledEles = {"e11_muzzle"},
+    --     VMScale = Vector(1.3,1.3,1.3),
+    --     WMScale = Vector(1.3,1.3,1.3),
+    --     Offset = {
+    --         vpos = Vector(-0, -0.7, 16.5),
+    --         vang = Angle(90, 0, 0),
+    --     },
+    -- },
+    -- {
+    --     PrintName = "Tactical",
+    --     DefaultAttName = "None",
+    --     Slot = {"tactical", "tac_pistol"},
+    --     Bone = "DC15",
+    --     InstalledEles = {"e11_laser"},
+    --     VMScale = Vector(0.7,0.7,0.7),
+    --     WMScale = Vector(0.7,0.7,0.7),
+    --     Offset = {
+    --         vpos = Vector(1.05, -0.7, 12.5),
+    --         vang = Angle(90, 0, 0),
+    --     },
+    -- },
+    -- {
+    --     PrintName = "Foregrip",
+    --     DefaultAttName = "Standard",
+    --     Slot = {"foregrip", "republic_bipod"},
+    --     Bone = "DC15",
+    --     InstalledEles = {"e11_grip"},
+    --     ExcludeFlags = {"sw_bayonet1", "sw_bayonet2"},
+    --     VMScale = Vector(0.9, 0.9, 0.9),
+    --     WMScale = Vector(0.9, 0.9, 0.9),
+    --     Offset = {
+    --         vpos = Vector(-0, 0.47, 4.8),
+    --         vang = Angle(90, 0, -90),   
+    --     },  
+    -- },
+    -- {
+    --     PrintName = "Energization",
+    --     DefaultAttName = "Red Tibanna",
+    --     Slot = {"ammo", "special_ammo"}
+    -- },
+    -- {
+    --     PrintName = "Mode",
+    --     DefaultAttName = "None",
+    --     Slot = {"sw_mode", "sw_mode_rifle"},
+    -- },   
     {
         PrintName = "Underbarrel",
         DefaultAttName = "None",
         Slot = {"sw_bayonet1", "sw_bayonet2"},
         ExcludeFlags = {"republic_bipod"},
-    },
-    {
-        PrintName = "Powercell",
-        DefaultAttName = "Standard E-9 Magazine",
-        Slot = "e9d_magazine",
-    },
-    {
-        PrintName = "Perk",
-        DefaultAttName = "None",
-        Slot = "perk",
-    },
-    {
-        PrintName = "Charm",
-        DefaultAttName = "None",
-        Slot = {"charm"},
-        Bone = "DC15",
-        VMScale = Vector(0.7, 0.7, 0.7),
-        Offset = {
-            vpos = Vector(1, -0.8, 0),
-            vang = Angle(90, 0, -90),
-        },
-    },
-    {
-        PrintName = "Killcounter",
-        DefaultAttName = "None",
-        Slot = {"killcounter"},
-        Bone = "DC15",
-        VMScale = Vector(0.9, 0.9, 0.9),
-        Offset = {
-            vpos = Vector(0.95, -0.75, -4),
-            vang = Angle(90, 0, -90),
-        },
-    },
+    }
+    -- {
+    --     PrintName = "Powercell",
+    --     DefaultAttName = "Standard E-9 Magazine",
+    --     Slot = "e9d_magazine",
+    -- },
+    -- {
+    --     PrintName = "Perk",
+    --     DefaultAttName = "None",
+    --     Slot = "perk",
+    -- },
+    -- {
+    --     PrintName = "Charm",
+    --     DefaultAttName = "None",
+    --     Slot = {"charm"},
+    --     Bone = "DC15",
+    --     VMScale = Vector(0.7, 0.7, 0.7),
+    --     Offset = {
+    --         vpos = Vector(1, -0.8, 0),
+    --         vang = Angle(90, 0, -90),
+    --     },
+    -- },
+    -- {
+    --     PrintName = "Killcounter",
+    --     DefaultAttName = "None",
+    --     Slot = {"killcounter"},
+    --     Bone = "DC15",
+    --     VMScale = Vector(0.9, 0.9, 0.9),
+    --     Offset = {
+    --         vpos = Vector(0.95, -0.75, -4),
+    --         vang = Angle(90, 0, -90),
+    --     },
+    -- },
 }
 
 -- Animations

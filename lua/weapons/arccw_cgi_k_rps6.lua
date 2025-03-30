@@ -19,7 +19,7 @@ SWEP.IconOverride = "entities/arccw/kraken/cgi/rps6.png"
 -- Base
 SWEP.DefaultBodygroups = "000000000000"
 SWEP.MirrorVMWM = false
-SWEP.UseHands = true
+SWEP.UseHands = false
 SWEP.ViewModel = "models/kraken/cgi/v_cgi_rps6.mdl"
 SWEP.WorldModel = "models/arccw/kraken/w_e11.mdl"
 
@@ -158,41 +158,41 @@ SWEP.AttachmentElements = {
 }
 WMOverride = "models/kraken/cgi/v_cgi_rps6.mdl"
 
-SWEP.Attachments = {
-    {
-        PrintName = "Tactical",
-        DefaultAttName = "None",
-        Slot = {"tactical", "tac_pistol"},
-        Bone = "tag_launcher_offset",
-        VMScale = Vector(1,1,1),
-        WMScale = Vector(11,11,11),
-        Offset = {
-            vpos = Vector(17, -1.5, 0.2),
-            vang = Angle(0, 0, 90),
-            wpos = Vector(120, 18, -60),
-            wang = Angle(0, 5, -90)
-        },
-    },
-    {
-        PrintName = "Perk",
-        DefaultAttName = "None",
-        Slot = "perk",
-    },
-    {
-        PrintName = "Charm",
-        DefaultAttName = "None",
-        Slot = {"charm"},
-        Bone = "tag_launcher_offset",
-        VMScale = Vector(1,1,1),
-        WMScale = Vector(11,11,11),
-        Offset = {
-            vpos = Vector(9.5, -2.34, 0.5),
-            vang = Angle(0, 0, 0),
-            wpos = Vector(50, 26, -60),
-            wang = Angle(0, 0, 180)
-        },
-    },
-}
+-- SWEP.Attachments = {
+--     {
+--         PrintName = "Tactical",
+--         DefaultAttName = "None",
+--         Slot = {"tactical", "tac_pistol"},
+--         Bone = "tag_launcher_offset",
+--         VMScale = Vector(1,1,1),
+--         WMScale = Vector(11,11,11),
+--         Offset = {
+--             vpos = Vector(17, -1.5, 0.2),
+--             vang = Angle(0, 0, 90),
+--             wpos = Vector(120, 18, -60),
+--             wang = Angle(0, 5, -90)
+--         },
+--     },
+--     {
+--         PrintName = "Perk",
+--         DefaultAttName = "None",
+--         Slot = "perk",
+--     },
+--     {
+--         PrintName = "Charm",
+--         DefaultAttName = "None",
+--         Slot = {"charm"},
+--         Bone = "tag_launcher_offset",
+--         VMScale = Vector(1,1,1),
+--         WMScale = Vector(11,11,11),
+--         Offset = {
+--             vpos = Vector(9.5, -2.34, 0.5),
+--             vang = Angle(0, 0, 0),
+--             wpos = Vector(50, 26, -60),
+--             wang = Angle(0, 0, 180)
+--         },
+--     },
+-- }
 
 -- Animations
 SWEP.BulletBones = {

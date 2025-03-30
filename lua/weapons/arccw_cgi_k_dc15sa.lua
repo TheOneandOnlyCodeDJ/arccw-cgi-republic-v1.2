@@ -178,90 +178,90 @@ SWEP.HolsterAng = Vector(-15, 30, -15)
 SWEP.DefaultElements = {}
 SWEP.AttachmentElements = {}
 
-SWEP.Attachments = {     
-    {
-        PrintName = "Sight", 
-        DefaultAttName = "None",
-        Slot = "optic",
-        Bone = "DC-15SA",
-        VMScale = Vector(0.8, 0.8, 0.8),
-        WMScale = Vector(0.8, 0.8, 0.8),
-        Offset = {
-            vpos = Vector(0.01, -2.5, -4.5),
-            vang = Angle(90, 0, -90),
-        },
-        CorrectivePos = Vector(0, 0, 0),
-        CorrectiveAng = Angle(0, 0, 0),
-    },
-    {
-        PrintName = "Muzzle",
-        DefaultAttName = "None",
-        Slot = {"muzzle", "cr2_muzzle", "cr2c_muzzle", "stealth_muzzle"},
-        Bone = "DC-15SA",
-        VMScale = Vector(1.1, 1.1, 1.1),
-        WMScale = Vector(1.1, 1.1, 1.1),
-        Offset = {
-            vpos = Vector(0, -0.84, 5.1),
-            vang = Angle(90, 0, -90),
-        },
-    },  
-    {
-        PrintName = "Tactical",
-        DefaultAttName = "None",
-        Slot = {"tactical", "tac_pistol"},
-        Bone = "DC-15SA",
-        VMScale = Vector(1, 1, 1),
-        WMScale = Vector(1, 1, 1),
-        Offset = {
-            vpos = Vector(0, 0.5, 1),
-            vang = Angle(90, 0, -90),
-        },
-    },
-    {
-        PrintName = "Energization",
-        DefaultAttName = "None",
-        Slot = {"ammo"},
-    },
-    {
-        PrintName = "Mode",
-        DefaultAttName = "None",
-        Slot = {"sw_mode", "sw_mode_pistol"},
-    },  
-    {
-        PrintName = "Perk",
-        DefaultAttName = "None",
-        Slot = "perk",
-    },
-    {
-        PrintName = "Internal Modifications",
-        DefaultAttName = "None",
-        Slot = {"uc_fg"},
-    },    
-    {
-        PrintName = "Charm",
-        DefaultAttName = "None",
-        Slot = "charm",
-        VMScale = Vector(0.5, 0.5, 0.5),
-        WMScale = Vector(0.5, 0.5, 0.5),
-        Bone = "DC-15SA",
-        Offset = {
-            vpos = Vector(0.95, -1, 3),
-            vang = Angle(90, 0, -90),
-        },
-    },    
-    {
-        PrintName = "Killcounter",
-        DefaultAttName = "None",
-        Slot = "killcounter",
-        VMScale = Vector(1, 1, 1),
-        WMScale = Vector(1, 1, 1),
-        Bone = "DC-15SA",
-        Offset = {
-            vpos = Vector(0.85, -1.23, -0.9),
-            vang = Angle(90, 0, -90),
-        },
-    },   
-}
+-- SWEP.Attachments = {     
+--     {
+--         PrintName = "Sight", 
+--         DefaultAttName = "None",
+--         Slot = "optic",
+--         Bone = "DC-15SA",
+--         VMScale = Vector(0.8, 0.8, 0.8),
+--         WMScale = Vector(0.8, 0.8, 0.8),
+--         Offset = {
+--             vpos = Vector(0.01, -2.5, -4.5),
+--             vang = Angle(90, 0, -90),
+--         },
+--         CorrectivePos = Vector(0, 0, 0),
+--         CorrectiveAng = Angle(0, 0, 0),
+--     },
+--     {
+--         PrintName = "Muzzle",
+--         DefaultAttName = "None",
+--         Slot = {"muzzle", "cr2_muzzle", "cr2c_muzzle", "stealth_muzzle"},
+--         Bone = "DC-15SA",
+--         VMScale = Vector(1.1, 1.1, 1.1),
+--         WMScale = Vector(1.1, 1.1, 1.1),
+--         Offset = {
+--             vpos = Vector(0, -0.84, 5.1),
+--             vang = Angle(90, 0, -90),
+--         },
+--     },  
+--     {
+--         PrintName = "Tactical",
+--         DefaultAttName = "None",
+--         Slot = {"tactical", "tac_pistol"},
+--         Bone = "DC-15SA",
+--         VMScale = Vector(1, 1, 1),
+--         WMScale = Vector(1, 1, 1),
+--         Offset = {
+--             vpos = Vector(0, 0.5, 1),
+--             vang = Angle(90, 0, -90),
+--         },
+--     },
+--     {
+--         PrintName = "Energization",
+--         DefaultAttName = "None",
+--         Slot = {"ammo"},
+--     },
+--     {
+--         PrintName = "Mode",
+--         DefaultAttName = "None",
+--         Slot = {"sw_mode", "sw_mode_pistol"},
+--     },  
+--     {
+--         PrintName = "Perk",
+--         DefaultAttName = "None",
+--         Slot = "perk",
+--     },
+--     {
+--         PrintName = "Internal Modifications",
+--         DefaultAttName = "None",
+--         Slot = {"uc_fg"},
+--     },    
+--     {
+--         PrintName = "Charm",
+--         DefaultAttName = "None",
+--         Slot = "charm",
+--         VMScale = Vector(0.5, 0.5, 0.5),
+--         WMScale = Vector(0.5, 0.5, 0.5),
+--         Bone = "DC-15SA",
+--         Offset = {
+--             vpos = Vector(0.95, -1, 3),
+--             vang = Angle(90, 0, -90),
+--         },
+--     },    
+--     {
+--         PrintName = "Killcounter",
+--         DefaultAttName = "None",
+--         Slot = "killcounter",
+--         VMScale = Vector(1, 1, 1),
+--         WMScale = Vector(1, 1, 1),
+--         Bone = "DC-15SA",
+--         Offset = {
+--             vpos = Vector(0.85, -1.23, -0.9),
+--             vang = Angle(90, 0, -90),
+--         },
+--     },   
+-- }
 
 -- Don't touch this unless you know what you're doing
 SWEP.Animations = {

@@ -167,28 +167,28 @@ SWEP.HolsterPos = Vector(3, 0, 0)
 SWEP.HolsterAng = Angle(-7.036, 30.016, 0)
 
 -- Attachments
-SWEP.Attachments = {
-    {
-        PrintName = "Energization",
-        DefaultAttName = "Standard",
-        Slot = {"ammo", "special_ammo"}
-    },
-    {
-        PrintName = "Mode",
-        DefaultAttName = "None",
-        Slot = {"sw_mode"},
-    },   
-    {
-        PrintName = "Perk",
-        DefaultAttName = "None",
-        Slot = "perk",
-    },
-    {
-        PrintName = "Internal Modifications",
-        DefaultAttName = "None",
-        Slot = {"uc_fg"},
-    }, 
-}
+-- SWEP.Attachments = {
+--     {
+--         PrintName = "Energization",
+--         DefaultAttName = "Standard",
+--         Slot = {"ammo", "special_ammo"}
+--     },
+--     {
+--         PrintName = "Mode",
+--         DefaultAttName = "None",
+--         Slot = {"sw_mode"},
+--     },   
+--     {
+--         PrintName = "Perk",
+--         DefaultAttName = "None",
+--         Slot = "perk",
+--     },
+--     {
+--         PrintName = "Internal Modifications",
+--         DefaultAttName = "None",
+--         Slot = {"uc_fg"},
+--     }, 
+-- }
 
 SWEP.Animations = {
     ["trigger"] = {

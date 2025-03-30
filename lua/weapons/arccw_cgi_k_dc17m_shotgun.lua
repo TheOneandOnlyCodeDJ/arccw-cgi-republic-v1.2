@@ -173,77 +173,77 @@ SWEP.AttachmentElements = {
     }
 }
 
-SWEP.Attachments = {
-    {
-        PrintName = "Optic", 
-        DefaultAttName = "None", 
-        Slot = "optic",
-        Bone = "DC-17M",
-        Offset = {
-            vpos = Vector(0.06, -2.8, -1.6),
-            vang = Angle(0, 90, 180),
-        },
-        CorrectiveAng = Angle(0, 180, 0),
-        CorrectivePos = Vector(0, 0, 0)
-    }, 
-    {
-        PrintName = "Internal Compression",
-        DefaultAttName = "DC-17m Standard",
-        Slot = {"muzzle", "dlt19_muzzle", "dc15a_muzzle", "cr2_muzzle", "cr2c_muzzle", "stealth_muzzle", "b1120_muzzle"},
-    },      
-    {
-        PrintName = "Tactical",
-        DefaultAttName = "None",
-        Slot = {"tactical", "tac_pistol", "tac"},
-        VMScale = Vector(0.8, 0.8, 0.8),
-        Bone = "DC-17M", 
-        Offset = {
-            vpos = Vector(1.7, -13, 0.1),
-            vang = Angle(0, 90, -90),
-        },
-    },
-    {
-        PrintName = "Energization",
-        DefaultAttName = "Standard",
-        Slot = {"ammo"},
-    },
-    {
-        PrintName = "Mode",
-        DefaultAttName = "None",
-        Slot = {"sw_mode"},
-    },   
-    {
-        PrintName = "Perk",
-        DefaultAttName = "None",
-        Slot = "perk",
-    },
-    {
-        PrintName = "Internal Modifications",
-        DefaultAttName = "None",
-        Slot = "uc_fg",
-    },
-    {
-        PrintName = "Charm",
-        DefaultAttName = "None",
-        Slot = {"charm"},
-        Bone = "DC-17M",
-        VMScale = Vector(0.7, 0.7, 0.7),
-        Offset = {
-            vpos = Vector(1.3, -1, -0.2),
-            vang = Angle(0, 90, 200),
-        },
-    },     
-    {
-        PrintName = "Killcounter",
-        DefaultAttName = "None",
-        Slot = {"killcounter"},
-        Bone = "DC-17M",
-        Offset = {
-            vpos = Vector(1.45, -3.7, -0.2),
-            vang = Angle(0, 90, 200),
-        },
-    },      
-}
+-- SWEP.Attachments = {
+--     {
+--         PrintName = "Optic", 
+--         DefaultAttName = "None", 
+--         Slot = "optic",
+--         Bone = "DC-17M",
+--         Offset = {
+--             vpos = Vector(0.06, -2.8, -1.6),
+--             vang = Angle(0, 90, 180),
+--         },
+--         CorrectiveAng = Angle(0, 180, 0),
+--         CorrectivePos = Vector(0, 0, 0)
+--     }, 
+--     {
+--         PrintName = "Internal Compression",
+--         DefaultAttName = "DC-17m Standard",
+--         Slot = {"muzzle", "dlt19_muzzle", "dc15a_muzzle", "cr2_muzzle", "cr2c_muzzle", "stealth_muzzle", "b1120_muzzle"},
+--     },      
+--     {
+--         PrintName = "Tactical",
+--         DefaultAttName = "None",
+--         Slot = {"tactical", "tac_pistol", "tac"},
+--         VMScale = Vector(0.8, 0.8, 0.8),
+--         Bone = "DC-17M", 
+--         Offset = {
+--             vpos = Vector(1.7, -13, 0.1),
+--             vang = Angle(0, 90, -90),
+--         },
+--     },
+--     {
+--         PrintName = "Energization",
+--         DefaultAttName = "Standard",
+--         Slot = {"ammo"},
+--     },
+--     {
+--         PrintName = "Mode",
+--         DefaultAttName = "None",
+--         Slot = {"sw_mode"},
+--     },   
+--     {
+--         PrintName = "Perk",
+--         DefaultAttName = "None",
+--         Slot = "perk",
+--     },
+--     {
+--         PrintName = "Internal Modifications",
+--         DefaultAttName = "None",
+--         Slot = "uc_fg",
+--     },
+--     {
+--         PrintName = "Charm",
+--         DefaultAttName = "None",
+--         Slot = {"charm"},
+--         Bone = "DC-17M",
+--         VMScale = Vector(0.7, 0.7, 0.7),
+--         Offset = {
+--             vpos = Vector(1.3, -1, -0.2),
+--             vang = Angle(0, 90, 200),
+--         },
+--     },     
+--     {
+--         PrintName = "Killcounter",
+--         DefaultAttName = "None",
+--         Slot = {"killcounter"},
+--         Bone = "DC-17M",
+--         Offset = {
+--             vpos = Vector(1.45, -3.7, -0.2),
+--             vang = Angle(0, 90, 200),
+--         },
+--     },      
+-- }
 
 -- Don't touch this unless you know what you're doing
 SWEP.Animations = {

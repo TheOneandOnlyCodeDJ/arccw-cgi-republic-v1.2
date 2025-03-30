@@ -186,28 +186,28 @@ SWEP.AttachmentElements = {
     }
 }
 
-SWEP.Attachments = {
-    {
-        PrintName = "Energization",
-        DefaultAttName = "Standard",
-        Slot = {"ammo", "special_ammo"}
-    },
-    {
-        PrintName = "Perk",
-        DefaultAttName = "None",
-        Slot = "perk",
-    },
-    {
-        PrintName = "Mode",
-        DefaultAttName = "None",
-        Slot = {"sw_mode"},
-    }, 
-    {
-        PrintName = "Internal Modifications",
-        DefaultAttName = "None",
-        Slot = {"uc_fg"},
-    },   
-}
+-- SWEP.Attachments = {
+--     {
+--         PrintName = "Energization",
+--         DefaultAttName = "Standard",
+--         Slot = {"ammo", "special_ammo"}
+--     },
+--     {
+--         PrintName = "Perk",
+--         DefaultAttName = "None",
+--         Slot = "perk",
+--     },
+--     {
+--         PrintName = "Mode",
+--         DefaultAttName = "None",
+--         Slot = {"sw_mode"},
+--     }, 
+--     {
+--         PrintName = "Internal Modifications",
+--         DefaultAttName = "None",
+--         Slot = {"uc_fg"},
+--     },   
+-- }
 
 SWEP.Animations = {
     ["trigger"] = {

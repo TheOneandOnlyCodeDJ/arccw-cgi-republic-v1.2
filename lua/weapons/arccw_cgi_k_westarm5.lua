@@ -197,18 +197,18 @@ SWEP.Attachments = {
             vang = Angle(90, 0, -90),
         },
 	},
-    {
-        PrintName = "Tactical",
-        DefaultAttName = "None",
-        Slot = {"tactical", "tac_pistol"},
-		Bone = "weapon",
-        VMScale = Vector(0.5, 0.5, 0.5),
-        WMScale = Vector(0.5, 0.5, 0.5),
-        Offset = {
-            vpos = Vector(1, -0.5, 5.6),
-            vang = Angle(90, 0, -0),
-        },
-    },
+    -- {
+    --     PrintName = "Tactical",
+    --     DefaultAttName = "None",
+    --     Slot = {"tactical", "tac_pistol"},
+	-- 	Bone = "weapon",
+    --     VMScale = Vector(0.5, 0.5, 0.5),
+    --     WMScale = Vector(0.5, 0.5, 0.5),
+    --     Offset = {
+    --         vpos = Vector(1, -0.5, 5.6),
+    --         vang = Angle(90, 0, -0),
+    --     },
+    -- },
     {
         PrintName = "Barrel",
         DefaultAttName = "None",
@@ -218,46 +218,46 @@ SWEP.Attachments = {
         PrintName = "Underbarrel", 
         DefaultAttName = "None",
         Slot = {"sw_bayonet2"}
-    },
-    {
-        PrintName = "Energization", 
-        DefaultAttName = "Standard",
-        Slot = {"ammo", "special_ammo"}
-    },
-    {
-        PrintName = "Mode",
-        DefaultAttName = "None",
-        Slot = {"sw_mode", "sw_mode_rifle"},
-    },   
-    {
-        PrintName = "Perk", 
-        DefaultAttName = "None",
-        Slot = "perk",
-    },  
-    {
-        PrintName = "Charms", 
-        DefaultAttName = "None",
-        Slot = {"charm"},
-		Bone = "weapon",
-        VMScale = Vector(0.6, 0.6, 0.6),
-        WMScale = Vector(0.7, 0.7, 0.7),
-        Offset = {
-            vpos = Vector(0.66, -1.3, .3),
-            vang = Angle(90, 0, -90),
-        },
-    },
-    {
-        PrintName = "Killcounter",
-        DefaultAttName = "None",
-        Slot = {"killcounter"},
-        Bone = "weapon",
-        VMScale = Vector(0.7, 0.7, 0.7),
-        WMScale = Vector(0.7, 0.7, 0.7),
-        Offset = {
-            vpos = Vector(0.4, -1, -2),
-            vang = Angle(90, 0, -90),
-        },
-    },                         
+    }
+    -- {
+    --     PrintName = "Energization", 
+    --     DefaultAttName = "Standard",
+    --     Slot = {"ammo", "special_ammo"}
+    -- },
+    -- {
+    --     PrintName = "Mode",
+    --     DefaultAttName = "None",
+    --     Slot = {"sw_mode", "sw_mode_rifle"},
+    -- },   
+    -- {
+    --     PrintName = "Perk", 
+    --     DefaultAttName = "None",
+    --     Slot = "perk",
+    -- },  
+    -- {
+    --     PrintName = "Charms", 
+    --     DefaultAttName = "None",
+    --     Slot = {"charm"},
+	-- 	Bone = "weapon",
+    --     VMScale = Vector(0.6, 0.6, 0.6),
+    --     WMScale = Vector(0.7, 0.7, 0.7),
+    --     Offset = {
+    --         vpos = Vector(0.66, -1.3, .3),
+    --         vang = Angle(90, 0, -90),
+    --     },
+    -- },
+    -- {
+    --     PrintName = "Killcounter",
+    --     DefaultAttName = "None",
+    --     Slot = {"killcounter"},
+    --     Bone = "weapon",
+    --     VMScale = Vector(0.7, 0.7, 0.7),
+    --     WMScale = Vector(0.7, 0.7, 0.7),
+    --     Offset = {
+    --         vpos = Vector(0.4, -1, -2),
+    --         vang = Angle(90, 0, -90),
+    --     },
+    -- },                         
 }
 
 -- Animations

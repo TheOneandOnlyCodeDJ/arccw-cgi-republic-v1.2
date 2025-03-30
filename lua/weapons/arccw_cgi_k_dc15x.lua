@@ -202,31 +202,31 @@ SWEP.Attachments = {
         CorrectiveAng = Angle(0, 0, 0),
         CorrectivePos = Vector(0, 0, 0),
     },
-    {
-        PrintName = "Muzzle",
-        DefaultAttName = "None",
-        Slot = {"e11_k_muzzles", "muzzle", "dlt19_muzzle", "dc15a_muzzle", "cr2_muzzle", "cr2c_muzzle", "stealth_muzzle", "b1120_muzzle"},
-        Bone = "DC15",
-        VMScale = Vector(1.5,1.5,1.5),
-        WMScale = Vector(1.5,1.5,1.5),
-        Offset = {
-            vpos = Vector(0.18, -0.8, 35.8),
-            vang = Angle(90, 0, 0),
-        },
-    },
-    {
-        PrintName = "Tactical",
-        DefaultAttName = "None",
-        Slot = {"tactical", "tac_pistol"},
-        Bone = "DC15",
-        InstalledEles = {"e11_laser"},
-        VMScale = Vector(0.8,0.8,0.8),
-        WMScale = Vector(0.8,0.8,0.8),
-        Offset = {
-            vpos = Vector(1.2, -1.5, 7.5),
-            vang = Angle(90, 0, 0),
-        },
-    },
+    -- {
+    --     PrintName = "Muzzle",
+    --     DefaultAttName = "None",
+    --     Slot = {"e11_k_muzzles", "muzzle", "dlt19_muzzle", "dc15a_muzzle", "cr2_muzzle", "cr2c_muzzle", "stealth_muzzle", "b1120_muzzle"},
+    --     Bone = "DC15",
+    --     VMScale = Vector(1.5,1.5,1.5),
+    --     WMScale = Vector(1.5,1.5,1.5),
+    --     Offset = {
+    --         vpos = Vector(0.18, -0.8, 35.8),
+    --         vang = Angle(90, 0, 0),
+    --     },
+    -- },
+    -- {
+    --     PrintName = "Tactical",
+    --     DefaultAttName = "None",
+    --     Slot = {"tactical", "tac_pistol"},
+    --     Bone = "DC15",
+    --     InstalledEles = {"e11_laser"},
+    --     VMScale = Vector(0.8,0.8,0.8),
+    --     WMScale = Vector(0.8,0.8,0.8),
+    --     Offset = {
+    --         vpos = Vector(1.2, -1.5, 7.5),
+    --         vang = Angle(90, 0, 0),
+    --     },
+    -- },
     {
         PrintName = "Foregrip",
         DefaultAttName = "Standard",
@@ -236,44 +236,44 @@ SWEP.Attachments = {
             vpos = Vector(-0, 1.8, 4),
             vang = Angle(90, 0, -90),   
         },  
-    },
-    {
-        PrintName = "Mode",
-        DefaultAttName = "None",
-        Slot = {"sw_mode", "sw_mode_sniper"},
-    },   
-    {
-        PrintName = "Energization",
-        DefaultAttName = "Red Tibanna",
-        Slot = {"ammo", "special_ammo"}
-    },
-    {
-        PrintName = "Perk",
-        DefaultAttName = "None",
-        Slot = "perk",
-    },
-    {
-        PrintName = "Charm",
-        DefaultAttName = "None",
-        Slot = {"charm"},
-        Bone = "DC15",
-        VMScale = Vector(0.7, 0.7, 0.7),
-        Offset = {
-            vpos = Vector(0.85, -0.68, 2),
-            vang = Angle(90, 0, -90),
-        },
-    },
-    {
-        PrintName = "Killcounter",
-        DefaultAttName = "None",
-        Slot = {"killcounter"},
-        Bone = "DC15",
-        VMScale = Vector(0.9, 0.9, 0.9),
-        Offset = {
-            vpos = Vector(0.85, -0.68, -2),
-            vang = Angle(90, 0, -90),
-        },
-    },
+    }
+    -- {
+    --     PrintName = "Mode",
+    --     DefaultAttName = "None",
+    --     Slot = {"sw_mode", "sw_mode_sniper"},
+    -- },   
+    -- {
+    --     PrintName = "Energization",
+    --     DefaultAttName = "Red Tibanna",
+    --     Slot = {"ammo", "special_ammo"}
+    -- },
+    -- {
+    --     PrintName = "Perk",
+    --     DefaultAttName = "None",
+    --     Slot = "perk",
+    -- },
+    -- {
+    --     PrintName = "Charm",
+    --     DefaultAttName = "None",
+    --     Slot = {"charm"},
+    --     Bone = "DC15",
+    --     VMScale = Vector(0.7, 0.7, 0.7),
+    --     Offset = {
+    --         vpos = Vector(0.85, -0.68, 2),
+    --         vang = Angle(90, 0, -90),
+    --     },
+    -- },
+    -- {
+    --     PrintName = "Killcounter",
+    --     DefaultAttName = "None",
+    --     Slot = {"killcounter"},
+    --     Bone = "DC15",
+    --     VMScale = Vector(0.9, 0.9, 0.9),
+    --     Offset = {
+    --         vpos = Vector(0.85, -0.68, -2),
+    --         vang = Angle(90, 0, -90),
+    --     },
+    -- },
 }
 
 -- Animations
