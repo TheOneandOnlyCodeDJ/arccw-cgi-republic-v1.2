@@ -192,28 +192,28 @@ SWEP.AttachmentElements = {
 }
 WMOverride = "models/kraken/cgi/v_cgi_dc17.mdl"
 
-SWEP.Attachments = {
-    {
-        PrintName = "Energization",
-        DefaultAttName = "Standard",
-        Slot = {"ammo", "special_ammo"}
-    },
-    {
-        PrintName = "Mode",
-        DefaultAttName = "None",
-        Slot = {"sw_mode", "sw_mode_pistol"},
-    },  
-    {
-        PrintName = "Perk",
-        DefaultAttName = "None",
-        Slot = "perk",
-    },
-    {
-        PrintName = "Internal Modifications",
-        DefaultAttName = "None",
-        Slot = {"uc_fg"},
-    }, 
-}
+-- SWEP.Attachments = {
+--     {
+--         PrintName = "Energization",
+--         DefaultAttName = "Standard",
+--         Slot = {"ammo", "special_ammo"}
+--     },
+--     {
+--         PrintName = "Mode",
+--         DefaultAttName = "None",
+--         Slot = {"sw_mode", "sw_mode_pistol"},
+--     },  
+--     {
+--         PrintName = "Perk",
+--         DefaultAttName = "None",
+--         Slot = "perk",
+--     },
+--     {
+--         PrintName = "Internal Modifications",
+--         DefaultAttName = "None",
+--         Slot = {"uc_fg"},
+--     }, 
+-- }
 
 -- Don't touch this unless you know what you're doing
 SWEP.Animations = {
