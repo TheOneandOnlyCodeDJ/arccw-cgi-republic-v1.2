@@ -9,7 +9,7 @@ att.Desc_Cons = {
 }
 att.Desc_Neutrals = {
 }
-att.Slot = {"sw_ammo"}
+att.Slot = {"sw_ammo_unused"}
 
 att.AutoStats = true
 att.Override_AmmoPerShot = 5
@@ -21,5 +21,5 @@ att.Hook_GetShootSound = function(wep, sound)
     return false
 end
 att.Hook_AddShootSound = function(wep, data)
-    wep:MyEmitSound("everfall/weapons/republic/stun.wav", data.volume, data.pitch, 1, CHAN_WEAPON - 1)
+    wep:MyEmitSound("shared/stun.wav", data.volume, data.pitch, 1, CHAN_WEAPON - 1)
 end

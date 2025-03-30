@@ -6,7 +6,7 @@ att.Description = "Replace the main-fire for stun rounds."
 att.Desc_Pros = {}
 att.Desc_Cons = {}
 att.Desc_Neutrals = {}
-att.Slot = {"sw_ammo"}
+att.Slot = {"sw_ammo_unused"}
 
 att.AutoStats = true
 att.Override_AmmoPerShot = 5
