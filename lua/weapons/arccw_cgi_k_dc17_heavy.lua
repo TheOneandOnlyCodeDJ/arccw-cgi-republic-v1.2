@@ -59,13 +59,13 @@ SWEP.HullSize = 1
 
 SWEP.AmmoPerShot = 1
 SWEP.ChamberSize = 0
-SWEP.Primary.ClipSize = 50
+SWEP.Primary.ClipSize = 25
 
 SWEP.Recoil = 0.45
 SWEP.RecoilSide = 0.2
 SWEP.RecoilRise = 0.2
 
-SWEP.Delay = 60 / 320
+SWEP.Delay = 60 / 220
 SWEP.Num = 1
 SWEP.Firemode = 2
 SWEP.Firemodes = {
@@ -75,32 +75,32 @@ SWEP.Firemodes = {
     {
 		Mode = 1,
     },
-    {
-        Mode = -3,
-        PostBurstDelay = 0.1,
-        RunawayBurst = false,
-        Mult_RPM = 2,
-    },
+    -- {
+    --     Mode = -3,
+    --     PostBurstDelay = 0.1,
+    --     RunawayBurst = false,
+    --     Mult_RPM = 2,
+    -- },
 	{
 		Mode = 0,
    	}
 }
 
-local s = "ArcCW_Kraken.OverheatWarn"
-local p = {
-    [5] = 70,
-    [4] = 70,
-    [3] = 70,
-    [2] = 80,
-    [1] = 90,
-    [0] = 100,
-}
-SWEP.Hook_AddShootSound = function(wep, data)
-    local pitch = p[wep:Clip1()]
-    if pitch then
-        wep:MyEmitSound(s, 100, pitch, 0.5, CHAN_AUTO)
-    end
-end
+-- local s = "ArcCW_Kraken.OverheatWarn"
+-- local p = {
+--     [5] = 70,
+--     [4] = 70,
+--     [3] = 70,
+--     [2] = 80,
+--     [1] = 90,
+--     [0] = 100,
+-- }
+-- SWEP.Hook_AddShootSound = function(wep, data)
+--     local pitch = p[wep:Clip1()]
+--     if pitch then
+--         wep:MyEmitSound(s, 100, pitch, 0.5, CHAN_AUTO)
+--     end
+-- end
 
 SWEP.AccuracyMOA = 0.5
 SWEP.HipDispersion = 300

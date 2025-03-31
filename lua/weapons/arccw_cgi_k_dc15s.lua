@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = "arccw_masita_base"
 SWEP.Spawnable = true
 
-SWEP.Slot = 3
+SWEP.Slot = 2
 
 SWEP.Category = "[ArcCW] Kraken's CGI Essentials - Republic"
 SWEP.Credits = "Kraken (Discord: @elbestiamasita)"
@@ -71,12 +71,12 @@ SWEP.Firemodes = {
     {
 		Mode = 2,
     },
-    {
-        Mode = -3,
-        PostBurstDelay = 0.1,
-        RunawayBurst = false,
-        Mult_RPM = 3,
-    },
+    -- {
+    --     Mode = -3,
+    --     PostBurstDelay = 0.1,
+    --     RunawayBurst = false,
+    --     Mult_RPM = 3,
+    -- },
     {
 		Mode = 1,
     },

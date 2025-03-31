@@ -71,11 +71,11 @@ SWEP.Firemodes = {
     {
 		Mode = 2,
     },
-    {
-        Mode = -3,
-        PostBurstDelay = 0.1,
-        RunawayBurst = false,
-    },
+    -- {
+    --     Mode = -3,
+    --     PostBurstDelay = 0.1,
+    --     RunawayBurst = false,
+    -- },
     {
 		Mode = 1,
     },
