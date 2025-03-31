@@ -58,13 +58,13 @@ SWEP.Tracer = "tracer_blue"
 SWEP.HullSize = 1
 
 SWEP.ChamberSize = 0
-SWEP.Primary.ClipSize = 25
+SWEP.Primary.ClipSize = 8
 
 SWEP.RecoilSide = 0.2
 SWEP.RecoilRise = 2
 SWEP.Recoil = 2
 
-SWEP.Delay = 60 / 200
+SWEP.Delay = 60 / 100
 SWEP.Num = 4
 SWEP.Firemode = 1
 SWEP.Firemodes = {
@@ -83,20 +83,20 @@ SWEP.Firemodes = {
 }
 
 local s = "ArcCW_Kraken.OverheatWarn"
-local p = {
-    [5] = 70,
-    [4] = 70,
-    [3] = 70,
-    [2] = 80,
-    [1] = 90,
-    [0] = 100,
-}
-SWEP.Hook_AddShootSound = function(wep, data)
-    local pitch = p[wep:Clip1()]
-    if pitch then
-        wep:MyEmitSound(s, 100, pitch, 0.5, CHAN_AUTO)
-    end
-end
+-- local p = {
+--     [5] = 70,
+--     [4] = 70,
+--     [3] = 70,
+--     [2] = 80,
+--     [1] = 90,
+--     [0] = 100,
+-- }
+-- SWEP.Hook_AddShootSound = function(wep, data)
+--     local pitch = p[wep:Clip1()]
+--     if pitch then
+--         wep:MyEmitSound(s, 100, pitch, 0.5, CHAN_AUTO)
+--     end
+-- end
 
 SWEP.AccuracyMOA = 20
 SWEP.HipDispersion = 300

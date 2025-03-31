@@ -66,39 +66,39 @@ SWEP.Recoil = 0.4
 SWEP.RecoilSide = 0.2
 SWEP.RecoilRise = 0.2
 
-SWEP.Delay = 60 / 220
+SWEP.Delay = 60 / 320
 SWEP.Num = 1
 SWEP.Firemode = 1
 SWEP.Firemodes = {
     {
 		Mode = 1,
     },
-    {
-        Mode = -3,
-        PostBurstDelay = 0.1,
-        RunawayBurst = false,
-        Mult_RPM = 2,
-    },
+    -- {
+    --     Mode = -3,
+    --     PostBurstDelay = 0.1,
+    --     RunawayBurst = false,
+    --     Mult_RPM = 2,
+    -- },
 	{
 		Mode = 0,
    	}
 }
 
-local s = "ArcCW_Kraken.OverheatWarn"
-local p = {
-    [5] = 70,
-    [4] = 70,
-    [3] = 70,
-    [2] = 80,
-    [1] = 90,
-    [0] = 100,
-}
-SWEP.Hook_AddShootSound = function(wep, data)
-    local pitch = p[wep:Clip1()]
-    if pitch then
-        wep:MyEmitSound(s, 100, pitch, 0.5, CHAN_AUTO)
-    end
-end
+-- local s = "ArcCW_Kraken.OverheatWarn"
+-- local p = {
+--     [5] = 70,
+--     [4] = 70,
+--     [3] = 70,
+--     [2] = 80,
+--     [1] = 90,
+--     [0] = 100,
+-- }
+-- SWEP.Hook_AddShootSound = function(wep, data)
+--     local pitch = p[wep:Clip1()]
+--     if pitch then
+--         wep:MyEmitSound(s, 100, pitch, 0.5, CHAN_AUTO)
+--     end
+-- end
 
 SWEP.AccuracyMOA = 0.5
 SWEP.HipDispersion = 100
@@ -117,8 +117,8 @@ SWEP.ShootVol = 100
 SWEP.ShootPitch = 90
 SWEP.ShootPitchVariation = 0.2
 
-SWEP.FirstShootSound = "kraken/cgi/dc17/dc17ext_1.wav"
-SWEP.ShootSound = "kraken/cgi/dc17/dc17ext_2.wav"
+SWEP.FirstShootSound = "kraken/cgi/dc15/dc15s.wav"
+SWEP.ShootSound = "kraken/cgi/dc15/dc15s.wav"
 SWEP.DistantShootSound = "ArcCW_Kraken.LightCorebass"
 SWEP.ShootSoundSilenced = "kraken/cgi/dc19/dc19.wav"
 

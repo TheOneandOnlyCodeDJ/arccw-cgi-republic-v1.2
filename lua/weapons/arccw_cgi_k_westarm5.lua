@@ -96,21 +96,21 @@ SWEP.HipDispersion = 200
 SWEP.MoveDispersion = 100
 SWEP.JumpDispersion = 500
 
-local s = "ArcCW_Kraken.OverheatWarn"
-local p = {
-    [5] = 70,
-    [4] = 70,
-    [3] = 70,
-    [2] = 80,
-    [1] = 90,
-    [0] = 100,
-}
-SWEP.Hook_AddShootSound = function(wep, data)
-    local pitch = p[wep:Clip1()]
-    if pitch then
-        wep:MyEmitSound(s, 100, pitch, 0.5, CHAN_AUTO)
-    end
-end
+-- local s = "ArcCW_Kraken.OverheatWarn"
+-- local p = {
+--     [5] = 70,
+--     [4] = 70,
+--     [3] = 70,
+--     [2] = 80,
+--     [1] = 90,
+--     [0] = 100,
+-- }
+-- SWEP.Hook_AddShootSound = function(wep, data)
+--     local pitch = p[wep:Clip1()]
+--     if pitch then
+--         wep:MyEmitSound(s, 100, pitch, 0.5, CHAN_AUTO)
+--     end
+-- end
 
 -- Speed Mult
 SWEP.SpeedMult = 0.925
