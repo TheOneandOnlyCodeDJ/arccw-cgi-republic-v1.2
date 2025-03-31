@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = "arccw_masita_base"
 SWEP.Spawnable = true
 
-SWEP.Slot = 3
+SWEP.Slot = 2
 
 SWEP.Category = "[ArcCW] Kraken's CGI Essentials - Republic"
 SWEP.Credits = "Kraken (Discord: @elbestiamasita)"
@@ -194,11 +194,11 @@ SWEP.Attachments = {
     --     DefaultAttName = "Standard",
     --     Slot = {"ammo"},
     -- },
-    {
-        PrintName = "Mode",
-        DefaultAttName = "None",
-        Slot = {"sw_mode", "sw_mode_sniper"},
-    } 
+    -- {
+    --     PrintName = "Mode",
+    --     DefaultAttName = "None",
+    --     Slot = {"sw_mode", "sw_mode_sniper"},
+    -- }, 
     -- {
     --     PrintName = "Perk",
     --     DefaultAttName = "None",

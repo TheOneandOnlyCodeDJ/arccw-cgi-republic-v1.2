@@ -35,7 +35,7 @@ SWEP.WorldModelOffset = {
 
 -- Special properties
 SWEP.Jamming = true
-SWEP.HeatGain = 1
+SWEP.HeatGain = 0.5
 SWEP.HeatCapacity = 85
 SWEP.HeatDissipation = 5
 SWEP.HeatLockout = true
@@ -55,7 +55,7 @@ SWEP.BodyDamageMults = {
     [HITGROUP_RIGHTLEG] = 0.75,
 }
 
-SWEP.Damage = 22
+SWEP.Damage = 26
 SWEP.DamageMin = 18
 SWEP.RangeMin = 0
 SWEP.Range = 300

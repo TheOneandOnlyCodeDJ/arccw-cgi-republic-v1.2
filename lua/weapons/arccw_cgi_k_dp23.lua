@@ -46,7 +46,7 @@ SWEP.BodyDamageMults = {
 SWEP.Damage = 28 * 4
 SWEP.DamageMin = 12 * 4
 SWEP.RangeMin = 0
-SWEP.Range = 180
+SWEP.Range = 80
 SWEP.Penetration = 8
 SWEP.DamageType = DMG_BULLET
 SWEP.MuzzleVelocity = 2000
@@ -58,13 +58,13 @@ SWEP.Tracer = "tracer_blue"
 SWEP.HullSize = 1
 
 SWEP.ChamberSize = 0
-SWEP.Primary.ClipSize = 18
+SWEP.Primary.ClipSize = 8
 
 SWEP.RecoilSide = 0.25
-SWEP.RecoilRise = 0.45
-SWEP.Recoil = 0.95
+SWEP.RecoilRise = 0.35
+SWEP.Recoil = 5.95
 
-SWEP.Delay = 60 / 140
+SWEP.Delay = 60 / 80
 SWEP.Num = 4
 SWEP.Firemode = 1
 SWEP.Firemodes = {

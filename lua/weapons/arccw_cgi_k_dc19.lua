@@ -55,13 +55,13 @@ SWEP.AlwaysPhysBullet = true
 SWEP.PhysTracerProfile = 7
 
 SWEP.ChamberSize = 0
-SWEP.Primary.ClipSize = 30
+SWEP.Primary.ClipSize = 36
 
 SWEP.RecoilSide = 0.25
 SWEP.RecoilRise = 0.45
 SWEP.Recoil = 0.75
 
-SWEP.Delay = 60 / 220
+SWEP.Delay = 60 / 240
 SWEP.Num = 1
 SWEP.Firemode = 1
 SWEP.Firemodes = {

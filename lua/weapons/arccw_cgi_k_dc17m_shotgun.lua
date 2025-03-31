@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = "arccw_masita_base"
 SWEP.Spawnable = true
 
-SWEP.Slot = 3
+SWEP.Slot = 2
 SWEP.Category = "[ArcCW] Kraken's CGI Essentials - Republic"
 SWEP.Credits = "Kraken (Discord: @elbestiamasita)"
 SWEP.PrintName = "DC-17m Shotgun"
@@ -57,7 +57,7 @@ SWEP.Tracer = "tracer_blue"
 SWEP.HullSize = 1
 
 SWEP.ChamberSize = 0
-SWEP.Primary.ClipSize = 25
+SWEP.Primary.ClipSize = 12
 
 SWEP.RecoilSide = 0.2
 SWEP.RecoilRise = 0.6

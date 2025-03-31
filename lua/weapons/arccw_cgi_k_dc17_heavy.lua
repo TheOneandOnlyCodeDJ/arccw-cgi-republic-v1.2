@@ -59,7 +59,7 @@ SWEP.HullSize = 1
 
 SWEP.AmmoPerShot = 1
 SWEP.ChamberSize = 0
-SWEP.Primary.ClipSize = 25
+SWEP.Primary.ClipSize = 18
 
 SWEP.Recoil = 0.45
 SWEP.RecoilSide = 0.2
