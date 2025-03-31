@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = "arccw_masita_base"
 SWEP.Spawnable = true
 
-SWEP.Slot = 3
+SWEP.Slot = 2
 
 SWEP.Category = "[ArcCW] Kraken's CGI Essentials - Republic"
 SWEP.Credits = "Kraken (Discord: @elbestiamasita)"
@@ -43,8 +43,8 @@ SWEP.BodyDamageMults = {
     [HITGROUP_RIGHTLEG] = 0.75,
 }
 
-SWEP.Damage = 26
-SWEP.DamageMin = 22
+SWEP.Damage = 55
+SWEP.DamageMin = 45
 SWEP.RangeMin = 0
 SWEP.Range = 450
 SWEP.Penetration = 8
@@ -60,23 +60,23 @@ SWEP.HullSize = 1
 SWEP.ChamberSize = 0
 SWEP.Primary.ClipSize = 50
 
-SWEP.RecoilSide = 0.2
-SWEP.RecoilRise = 0.6
+SWEP.RecoilSide = 0.1
+SWEP.RecoilRise = 0.4
 SWEP.Recoil = 0.2
 
-SWEP.Delay = 60 / 540
+SWEP.Delay = 60 / 220
 SWEP.Num = 1
 SWEP.Firemode = 1
 SWEP.Firemodes = {
     {
 		Mode = 2,
     },
-    {
-        Mode = -3,
-        PostBurstDelay = 0.1,
-        RunawayBurst = false,
-        Mult_RPM = 3,
-    },
+    -- {
+    --     Mode = -3,
+    --     PostBurstDelay = 0.1,
+    --     RunawayBurst = false,
+    --     Mult_RPM = 3,
+    -- },
     {
 		Mode = 1,
     },
@@ -101,10 +101,10 @@ SWEP.Firemodes = {
 --     end
 -- end
 
-SWEP.AccuracyMOA = 0.5
-SWEP.HipDispersion = 300
-SWEP.MoveDispersion = 100
-SWEP.JumpDispersion = 500
+SWEP.AccuracyMOA = 0
+SWEP.HipDispersion = 100
+SWEP.MoveDispersion = 50
+SWEP.JumpDispersion = 250
 
 -- Speed Mult
 SWEP.SpeedMult = 0.925
