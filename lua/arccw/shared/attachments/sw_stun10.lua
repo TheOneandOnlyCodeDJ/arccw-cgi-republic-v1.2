@@ -10,9 +10,12 @@ att.Desc_Cons = {
 att.Desc_Neutrals = {
 }
 att.Slot = {"sw_ammo"}
+att.Mult_RPM = 0.07
+att.Mult_Damage = 0
+att.Mult_Recoil = 8
 
 att.AutoStats = true
-att.Override_AmmoPerShot = 5
+att.Override_AmmoPerShot = 25
 att.Override_Tracer = "effect_sw_laser_blue_stun"
 att.Hook_BulletHit = function(wep, data)
 	GMSERV:AddStatus(data.tr.Entity, data.att, "stun", 10, 1, true) --Entity,Owner,Status Effect Type (Yes, you can add the others),Duration, Damage, ParticleEffect

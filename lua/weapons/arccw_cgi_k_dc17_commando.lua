@@ -65,19 +65,19 @@ SWEP.Recoil = 0.8
 SWEP.RecoilSide = 0.2
 SWEP.RecoilRise = 0.2
 
-SWEP.Delay = 60 / 240
+SWEP.Delay = 60 / 320
 SWEP.Num = 1
 SWEP.Firemode = 1
 SWEP.Firemodes = {
     {
 		Mode = 1,
     },
-    {
-        Mode = -3,
-        PostBurstDelay = 0.1,
-        RunawayBurst = false,
-        Mult_RPM = 2,
-    },
+    -- {
+    --     Mode = -3,
+    --     PostBurstDelay = 0.1,
+    --     RunawayBurst = false,
+    --     Mult_RPM = 2,
+    -- },
 	{
 		Mode = 0,
    	}
