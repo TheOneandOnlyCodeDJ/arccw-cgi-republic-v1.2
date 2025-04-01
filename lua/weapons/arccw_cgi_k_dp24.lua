@@ -43,8 +43,8 @@ SWEP.BodyDamageMults = {
     [HITGROUP_RIGHTLEG] = 0.75,
 }
 
-SWEP.Damage = 27
-SWEP.DamageMin = 23
+SWEP.Damage = 45
+SWEP.DamageMin = 39
 SWEP.RangeMin = 0
 SWEP.Range = 280
 SWEP.Penetration = 8
@@ -60,25 +60,26 @@ SWEP.HullSize = 1
 SWEP.ChamberSize = 0
 SWEP.Primary.ClipSize = 36
 
-SWEP.RecoilSide = 0.25
-SWEP.RecoilRise = 0.45
-SWEP.Recoil = 0.45
+SWEP.RecoilSide = 0.15
+SWEP.RecoilRise = 0.35
+SWEP.Recoil = 0.35
 
-SWEP.Delay = 60 / 720
+SWEP.Delay = 60 / 820
 SWEP.Num = 1
 SWEP.Firemode = 2
 SWEP.Firemodes = {
     -- {
 	-- 	Mode = 2,
     -- },
-    {
-		Mode = 1,
-    },
+    
     {
         Mode = -3,
         PostBurstDelay = 0.1,
         RunawayBurst = false,
         Mult_RPM = 3,
+    },
+    {
+		Mode = 1,
     },
 	{
 		Mode = 0,

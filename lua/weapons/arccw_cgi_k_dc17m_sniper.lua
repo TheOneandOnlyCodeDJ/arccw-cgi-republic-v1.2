@@ -33,8 +33,8 @@ SWEP.WorldModelOffset = {
 }
 
 -- Damage and things
-SWEP.Damage = 105
-SWEP.DamageMin = 95
+SWEP.Damage = 325
+SWEP.DamageMin = 300
 SWEP.RangeMin = 0
 SWEP.Range = 900
 SWEP.Penetration = 2
@@ -58,11 +58,11 @@ SWEP.Tracer = "tracer_blue"
 SWEP.HullSize = 1
 
 SWEP.ChamberSize = 0
-SWEP.Primary.ClipSize = 10
+SWEP.Primary.ClipSize = 5
 
 SWEP.RecoilSide = 0.2
 SWEP.RecoilRise = 0.6
-SWEP.Recoil = 2
+SWEP.Recoil = 3
 
 SWEP.Delay = 60 / 120
 SWEP.Num = 1
@@ -101,8 +101,8 @@ SWEP.Firemodes = {
 --     end
 -- end
 
-SWEP.AccuracyMOA = 0.5
-SWEP.HipDispersion = 250
+SWEP.AccuracyMOA = 0
+SWEP.HipDispersion = 50
 SWEP.MoveDispersion = 100
 SWEP.JumpDispersion = 500
 

@@ -23,7 +23,7 @@ SWEP.UseHands = true
 SWEP.ViewModel = "models/kraken/cgi/v_cgi_westarm5.mdl"
 SWEP.WorldModel = "models/arccw/kraken/w_e11.mdl"
 
-SWEP.ViewModelFOV = 60
+SWEP.ViewModelFOV = 45
 
 SWEP.WorldModelOffset = {
     pos = Vector(-10, 3, -3.4),
@@ -91,8 +91,8 @@ SWEP.Firemodes = {
    	}
 }
 
-SWEP.AccuracyMOA = 0.5
-SWEP.HipDispersion = 200
+SWEP.AccuracyMOA = 0
+SWEP.HipDispersion = 150
 SWEP.MoveDispersion = 100
 SWEP.JumpDispersion = 500
 

@@ -7,7 +7,7 @@ SWEP.Slot = 3
 
 SWEP.Category = "[ArcCW] Kraken's CGI Essentials - Republic"
 SWEP.Credits = "Kraken (Discord: @elbestiamasita)"
-SWEP.PrintName = "DLT-16s"
+SWEP.PrintName = "Valken SAW"
 SWEP.Trivia_Class = "Blaster, Heavy Rifle"
 SWEP.Trivia_Desc = "Experimental repeater. The DLT-16 heavy blaster rifle was a model of heavy blaster rifle manufactured by BlasTech Industries. They were used by regular Colne Troopers and Heavy Weapons Clone Troopers of the Galactic Republic, but they also saw use by other parties, including certain bounty hunters."
 SWEP.Trivia_Manufacturer = "BlastTech Industries"
@@ -44,9 +44,9 @@ SWEP.BodyDamageMults = {
 }
 
 SWEP.Damage = 39
-SWEP.DamageMin = 22
+SWEP.DamageMin = 29
 SWEP.RangeMin = 0
-SWEP.Range = 235
+SWEP.Range = 200
 SWEP.Penetration = 8
 SWEP.DamageType = DMG_BULLET
 SWEP.MuzzleVelocity = 1200
@@ -64,7 +64,7 @@ SWEP.RecoilSide = 0.2
 SWEP.RecoilRise = 0.4
 SWEP.Recoil = 0.8
 
-SWEP.Delay = 60 / 320
+SWEP.Delay = 60 / 670
 SWEP.Num = 1
 SWEP.Firemode = 1
 SWEP.Firemodes = {
@@ -100,7 +100,7 @@ SWEP.Firemodes = {
 --     end
 -- end
 
-SWEP.AccuracyMOA = 0.5
+SWEP.AccuracyMOA = 0.2
 SWEP.HipDispersion = 200
 SWEP.MoveDispersion = 100
 SWEP.JumpDispersion = 1000

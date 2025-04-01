@@ -62,7 +62,7 @@ SWEP.Primary.ClipSize = 100
 
 SWEP.RecoilSide = 0.2
 SWEP.RecoilRise = 0.4
-SWEP.Recoil = 0.4
+SWEP.Recoil = 1.4
 
 SWEP.Delay = 60 / 420
 SWEP.Num = 1

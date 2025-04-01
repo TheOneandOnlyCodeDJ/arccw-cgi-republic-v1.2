@@ -33,10 +33,10 @@ SWEP.WorldModelOffset = {
 }
 
 -- Damage and things
-SWEP.Damage = 39
-SWEP.DamageMin = 23
+SWEP.Damage = 42
+SWEP.DamageMin = 39
 SWEP.RangeMin = 0
-SWEP.Range = 400
+SWEP.Range = 500
 SWEP.Penetration = 2
 SWEP.DamageType = DMG_BULLET
 SWEP.MuzzleVelocity = 800
