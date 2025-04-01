@@ -135,13 +135,12 @@ SWEP.ReloadInSights_FOVMult = 0.875
 
 SWEP.IronSightStruct = {
     Pos = Vector(-3.093, -2.257, 1.6),
-    Ang = Vector(1.225, 0, 0),
+    Ang = Angle(1.225, 0, 0), -- Fixed from Vector to Angle
     Magnification = 1,
     SwitchToSound = "arccw/kraken/interaction/zoom-in.wav",
     SwitchFromSound = "arccw/kraken/interaction/zoom-out.wav",
     ViewModelFOV = 55,
 }
-
 -- Holdtype
 SWEP.HoldtypeHolstered = "passive"
 SWEP.HoldtypeActive = "crossbow"
