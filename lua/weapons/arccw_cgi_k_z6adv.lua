@@ -38,8 +38,8 @@ SWEP.BottomlessClip = true -- weapon never has to reload
 
 SWEP.Jamming = true
 SWEP.HeatGain = 1
-SWEP.HeatCapacity = 120
-SWEP.HeatDissipation = 5
+SWEP.HeatCapacity = 85
+SWEP.HeatDissipation = 12
 SWEP.HeatLockout = true
 SWEP.HeatDelayTime = 0.5
 SWEP.HeatFix = true 
