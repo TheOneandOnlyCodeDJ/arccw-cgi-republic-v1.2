@@ -76,7 +76,7 @@ SWEP.Firemodes = {
         Mode = -3,
         PostBurstDelay = 0.1,
         RunawayBurst = false,
-        Mult_RPM = 3,
+        Mult_RPM = 1,
     },
     {
 		Mode = 1,
@@ -108,7 +108,7 @@ SWEP.MoveDispersion = 300
 SWEP.JumpDispersion = 300
 
 -- Speed Mult
-SWEP.SpeedMult = 0.925
+SWEP.SpeedMult = 1
 SWEP.SightedSpeedMult = 0.75
 SWEP.SightTime = 0.35
 SWEP.ShootSpeedMult = 0.9
@@ -161,6 +161,14 @@ SWEP.CustomizeAng = Angle(6.8, 30.7, 10.3)
 
 SWEP.HolsterPos = Vector(4, -3, 2)
 SWEP.HolsterAng = Vector(-15, 30, -15)
+
+SWEP.Recoil = 0.35 -- Keep this for actual recoil mechanics
+SWEP.RecoilSide = 0.15
+SWEP.RecoilRise = 0.35
+
+SWEP.VisualRecoilMult = 0 -- Disable visual recoil (camera shake)
+SWEP.RecoilPunch = 0 -- Disable view punch
+SWEP.RecoilPunchBack = 0 -- Disable backward camera movement
 
 -- Attachments
 SWEP.DefaultElements = {}

@@ -107,7 +107,7 @@ SWEP.MoveDispersion = 50
 SWEP.JumpDispersion = 250
 
 -- Speed Mult
-SWEP.SpeedMult = 0.925
+SWEP.SpeedMult = 1
 SWEP.SightedSpeedMult = 0.75
 SWEP.SightTime = 0.35
 SWEP.ShootSpeedMult = 0.9
