@@ -66,9 +66,9 @@ SWEP.HullSize = 1
 SWEP.ChamberSize = 0
 SWEP.Primary.ClipSize = 60
 
-SWEP.RecoilSide = 0.2
-SWEP.RecoilRise = 0.6
-SWEP.Recoil = 0.2
+SWEP.RecoilSide = 0
+SWEP.RecoilRise = 0
+SWEP.Recoil = 0.1
 
 SWEP.Delay = 60 / 600
 SWEP.Num = 1
@@ -92,9 +92,9 @@ SWEP.Firemodes = {
 }
 
 SWEP.AccuracyMOA = 0
-SWEP.HipDispersion = 150
-SWEP.MoveDispersion = 100
-SWEP.JumpDispersion = 500
+SWEP.HipDispersion = 100
+SWEP.MoveDispersion = 50
+SWEP.JumpDispersion = 250
 
 -- local s = "ArcCW_Kraken.OverheatWarn"
 -- local p = {

@@ -57,9 +57,9 @@ SWEP.PhysTracerProfile = 7
 SWEP.ChamberSize = 0
 SWEP.Primary.ClipSize = 36
 
-SWEP.RecoilSide = 0.25
-SWEP.RecoilRise = 0.45
-SWEP.Recoil = 0.75
+SWEP.RecoilSide = 0
+SWEP.RecoilRise = 0
+SWEP.Recoil = 0.1
 
 SWEP.Delay = 60 / 240
 SWEP.Num = 1
@@ -98,10 +98,10 @@ SWEP.Firemodes = {
 --     end
 -- end
 
-SWEP.AccuracyMOA = 0.5
-SWEP.HipDispersion = 220
-SWEP.MoveDispersion = 100
-SWEP.JumpDispersion = 500
+SWEP.AccuracyMOA = 0
+SWEP.HipDispersion = 100
+SWEP.MoveDispersion = 50
+SWEP.JumpDispersion = 250
 
 -- Speed Mult
 SWEP.SpeedMult = 1
