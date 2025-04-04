@@ -67,7 +67,7 @@ SWEP.Recoil = 0.4
 SWEP.RecoilSide = 0.2
 SWEP.RecoilRise = 0.2
 
-SWEP.Delay = 60 / 320
+SWEP.Delay = 60 / 350
 SWEP.Num = 1
 SWEP.Firemode = 1
 SWEP.Firemodes = {
@@ -85,9 +85,9 @@ SWEP.Firemodes = {
    	}
 }
 
-SWEP.AccuracyMOA = 0.5
-SWEP.HipDispersion = 100
-SWEP.MoveDispersion = 150 
+SWEP.AccuracyMOA = 0
+SWEP.HipDispersion = 25
+SWEP.MoveDispersion = 50 
 SWEP.JumpDispersion = 200
 
 -- local s = "ArcCW_Kraken.OverheatWarn"
