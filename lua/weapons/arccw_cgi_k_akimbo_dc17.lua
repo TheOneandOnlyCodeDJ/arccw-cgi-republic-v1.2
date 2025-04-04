@@ -63,11 +63,11 @@ SWEP.AmmoPerShot = 1
 SWEP.ChamberSize = 0
 SWEP.Primary.ClipSize = 24
 
-SWEP.Recoil = 0.4
-SWEP.RecoilSide = 0.2
-SWEP.RecoilRise = 0.2
+SWEP.RecoilSide = 0
+SWEP.RecoilRise = 0
+SWEP.Recoil = 0.1
 
-SWEP.Delay = 60 / 340
+SWEP.Delay = 60 / 400
 SWEP.Num = 1
 SWEP.Firemode = 1
 SWEP.Firemodes = {
