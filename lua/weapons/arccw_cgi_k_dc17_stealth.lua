@@ -58,9 +58,9 @@ SWEP.AmmoPerShot = 1
 SWEP.ChamberSize = 0
 SWEP.Primary.ClipSize = 18
 
-SWEP.Recoil = 0.5
-SWEP.RecoilSide = 0.2
-SWEP.RecoilRise = 0.2
+SWEP.RecoilSide = 0
+SWEP.RecoilRise = 0
+SWEP.Recoil = 0.1
 
 SWEP.Delay = 60 / 220
 SWEP.Num = 1
@@ -96,10 +96,10 @@ SWEP.Firemodes = {
 --     end
 -- end
 
-SWEP.AccuracyMOA = 0.5
-SWEP.HipDispersion = 110
-SWEP.MoveDispersion = 150 
-SWEP.JumpDispersion = 200
+SWEP.AccuracyMOA = 0
+SWEP.HipDispersion = 100
+SWEP.MoveDispersion = 50
+SWEP.JumpDispersion = 250
 
 -- Speed Mult
 SWEP.SpeedMult = 0.955
