@@ -7,20 +7,21 @@ SWEP.Slot = 3
 
 SWEP.Category = "[ArcCW] CN Republic Weapons"
 SWEP.Credits = "Kraken (Discord: @elbestiamasita)"
-SWEP.PrintName = "Akimbo DC-17 Heavy"
+SWEP.PrintName = "Akimbo DC-17 (Rex)"
 SWEP.Trivia_Class = "Blaster, Handblaster"
 SWEP.Trivia_Desc = "The DC-17 repeater hand blaster, also known more simply as a DC-17 hand blaster, was a model of heavy blaster pistol and the Grand Army of the Republic's standard-issue sidearm. Produced by BlasTech Industries, the DC-17 was usually given to weapon teams, the crews of vehicles, and officers. The weapon was one of the most reliable and toughest models of blaster pistols created, as well as having remarkable stopping power in its small design. The weapon was also well balanced, possessed a respectable rate of fire, and lightweight."
 SWEP.Trivia_Manufacturer = "BlastTech Industries"
 SWEP.Trivia_Calibre = "Laser Bolt"
 SWEP.Trivia_Mechanism = "Condensed Tibanna-Gas"
 SWEP.Trivia_Country = "Galactic Republic"
-SWEP.IconOverride = "entities/arccw/kraken/cgi/17_heavy_dual.png"
+SWEP.IconOverride = "entities/arccw/kraken/cgi/17_dual.png"
 
 -- Base
 SWEP.DefaultBodygroups = "000000000000"
 SWEP.MirrorVMWM = false
+SWEP.NoHideLeftHandInCustomization = true
 SWEP.UseHands = true
-SWEP.ViewModel = "models/kraken/cgi/v_cgi_dc17h_akimbo.mdl"
+SWEP.ViewModel = "models/kraken/cgi/v_cgi_dc17_akimbo.mdl"
 SWEP.WorldModel = "models/arccw/kraken/w_e11.mdl"
 
 SWEP.ViewModelFOV = 65
@@ -35,7 +36,7 @@ SWEP.WorldModelOffset = {
 
 -- Damage & Tracer
 SWEP.BodyDamageMults = {
-    [HITGROUP_HEAD] = 2.5,
+    [HITGROUP_HEAD] = 2,
     [HITGROUP_CHEST] = 1.25,
     [HITGROUP_STOMACH] = 1.1,
     [HITGROUP_LEFTARM] = 1,
@@ -44,10 +45,10 @@ SWEP.BodyDamageMults = {
     [HITGROUP_RIGHTLEG] = 0.75,
 }
 
-SWEP.Damage = 38
-SWEP.DamageMin = 20
+SWEP.Damage = 36
+SWEP.DamageMin = 17
 SWEP.RangeMin = 0
-SWEP.Range = 450
+SWEP.Range = 420
 SWEP.Penetration = 8
 SWEP.DamageType = DMG_BULLET
 SWEP.MuzzleVelocity = 2000
@@ -60,13 +61,13 @@ SWEP.HullSize = 1
 
 SWEP.AmmoPerShot = 1
 SWEP.ChamberSize = 0
-SWEP.Primary.ClipSize = 36
+SWEP.Primary.ClipSize = 32
 
 SWEP.RecoilSide = 0
 SWEP.RecoilRise = 0
 SWEP.Recoil = 0.1
 
-SWEP.Delay = 60 / 360
+SWEP.Delay = 60 / 450
 SWEP.Num = 1
 SWEP.Firemode = 1
 SWEP.Firemodes = {
@@ -101,9 +102,9 @@ SWEP.Firemodes = {
 -- end
 
 SWEP.AccuracyMOA = 0
-SWEP.HipDispersion = 100
-SWEP.MoveDispersion = 50
-SWEP.JumpDispersion = 250
+SWEP.HipDispersion = 25
+SWEP.MoveDispersion = 50 
+SWEP.JumpDispersion = 200
 
 -- Speed Mult
 SWEP.SpeedMult = 0.955
@@ -114,11 +115,11 @@ SWEP.ShootSpeedMult = 0.9
 -- Ammo, Sounds & MuzzleEffect
 SWEP.Primary.Ammo = "ar2"
 SWEP.ShootVol = 100
-SWEP.ShootPitch = 90
+SWEP.ShootPitch = 100
 SWEP.ShootPitchVariation = 0.2
 
-SWEP.FirstShootSound = "kraken/cgi/dc15/dc15s.wav"
-SWEP.ShootSound = "kraken/cgi/dc15/dc15s.wav"
+SWEP.FirstShootSound = "kraken/cgi/dc17/dc17_10.wav"
+SWEP.ShootSound = "kraken/cgi/dc17/dc17_12.wav"
 SWEP.DistantShootSound = "ArcCW_Kraken.LightCorebass"
 SWEP.ShootSoundSilenced = "kraken/cgi/dc19/dc19.wav"
 
@@ -169,7 +170,7 @@ SWEP.AttachmentElements = {
     ["dc17"] = {
         WMElements = {
             {
-                Model = "models/kraken/cgi/v_cgi_dc17h.mdl",
+                Model = "models/kraken/cgi/v_cgi_dc17.mdl",
                 Bone = "ValveBiped.Bip01_R_Hand",
                 Scale = Vector(1.1, 1.1, 1.1),
                 Offset = {
@@ -178,18 +179,18 @@ SWEP.AttachmentElements = {
                 }
             },
             {
-                Model = "models/kraken/cgi/v_cgi_dc17h.mdl",
+                Model = "models/kraken/cgi/v_cgi_dc17.mdl",
                 Bone = "ValveBiped.Bip01_L_Hand",
                 Scale = Vector(1.1, 1.1, 1.1),
                 Offset = {
-                    pos = Vector(-330, 290, -120),
+                    pos = Vector(-325, 290, -120),
                     ang = Angle(180, -180, 2)
                 }
             },
         },   
     }
 }
-WMOverride = "models/kraken/cgi/v_cgi_dc17h.mdl"
+WMOverride = "models/kraken/cgi/v_cgi_dc17.mdl"
 
 -- SWEP.Attachments = {
 --     {
@@ -227,11 +228,11 @@ SWEP.Animations = {
     },
 	["fire"] = {
         Source = {"shoot_l", "shoot_r"},
-        Mult = 1,
+        Mult = 2,
     },
     ["fire_iron"] = {
         Source = {"shoot_l", "shoot_r"},
-        Mult = 1,
+        Mult = 2,
     },
     ["reload"] = {
         Source = "reload",
