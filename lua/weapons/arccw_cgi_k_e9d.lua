@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = "arccw_masita_base"
 SWEP.Spawnable = true
 
-SWEP.Slot = 3
+SWEP.Slot = 2
 
 SWEP.Category = "[ArcCW] Kraken's CGI Essentials - Republic"
 SWEP.Credits = "Kraken (Discord: @elbestiamasita)"
@@ -194,21 +194,21 @@ SWEP.AttachmentElements = {
 }
 
 SWEP.Attachments = {
-    -- {
-    --     PrintName = "Sight",
-    --     DefaultAttName = "None",
-    --     Slot = "optic",
-    --     VMScale = Vector(0.9, 0.9, 0.9),
-    --     WMScale = Vector(0.9, 0.9, 0.9),
-    --     Bone = "DC15",
-    --     Offset = {
-    --         vpos = Vector(-0.05, -1.8, 5),
-    --         vang = Angle(90, 0, -90),
-    --     },
-    --     InstalledEles = {"e11_scope"},
-    --     CorrectiveAng = Angle(0, 0, 0),
-    --     CorrectivePos = Vector(0, 0, 0),
-    -- },
+    {
+        PrintName = "Sight",
+        DefaultAttName = "None",
+        Slot = "optic",
+        VMScale = Vector(0.9, 0.9, 0.9),
+        WMScale = Vector(0.9, 0.9, 0.9),
+        Bone = "DC15",
+        Offset = {
+            vpos = Vector(-0.05, -1.8, 5),
+            vang = Angle(90, 0, -90),
+        },
+        InstalledEles = {"e11_scope"},
+        CorrectiveAng = Angle(0, 0, 0),
+        CorrectivePos = Vector(0, 0, 0),
+    },
     -- {
     --     PrintName = "Muzzle",
     --     DefaultAttName = "None",

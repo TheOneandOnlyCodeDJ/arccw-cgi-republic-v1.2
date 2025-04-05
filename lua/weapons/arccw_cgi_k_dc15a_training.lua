@@ -192,7 +192,7 @@ SWEP.Attachments = {
         WMScale = Vector(0.9, 0.9, 0.9),
         Bone = "DC15",
         Offset = {
-            vpos = Vector(-0.1, -4.44, 21),
+            vpos = Vector(-0.1, -2.8, 12),
             vang = Angle(90, 0, -90),
         },
         InstalledEles = {"e11_scope"},
