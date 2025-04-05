@@ -5,11 +5,11 @@ SWEP.AdminOnly = false
 
 SWEP.Category = "[ArcCW] CN Republic Weapons"
 SWEP.Credits = "Kraken (Discord: @elbestiamasita)"
-SWEP.PrintName = "501st Legion Shield"
+SWEP.PrintName = "Shield 501st Legion"
 SWEP.Trivia_Class = "Shield"
 SWEP.Trivia_Desc = "Anti-blaster fire shield for the grand army of the Republic. Stops blaster fire, specially from those damm clankers."
 SWEP.Trivia_Manufacturer = "BlastTech Industries"
-SWEP.Trivia_Calibre = "Laser Bolt"
+SWEP.Trivia_Calibre = "Anti Blaster"
 SWEP.Trivia_Mechanism = "Condensed Tibanna-Gas"
 SWEP.Trivia_Country = "Galactic Republic"
 SWEP.IconOverride = "entities/arccw/kraken/cgi/501st_shield.png"
