@@ -5,7 +5,7 @@ SWEP.Spawnable = true
 
 SWEP.Slot = 3
 
-SWEP.Category = "[ArcCW] Kraken's CGI Essentials - Republic"
+SWEP.Category = "[ArcCW] CN Republic Weapons"
 SWEP.Credits = "Kraken (Discord: @elbestiamasita)"
 SWEP.PrintName = "DLT-16"
 SWEP.Trivia_Class = "Blaster, Heavy Rifle"
@@ -60,9 +60,12 @@ SWEP.HullSize = 1
 SWEP.ChamberSize = 0
 SWEP.Primary.ClipSize = 100
 
-SWEP.RecoilSide = 0.02
-SWEP.RecoilRise = 0.04
-SWEP.Recoil = 0.4
+SWEP.Recoil = 1.3
+SWEP.RecoilSide = 0.015
+SWEP.RecoilRise = 0.1
+SWEP.RecoilPunch = 0
+SWEP.RecoilVMShake = 0
+SWEP.VisualRecoilMult = 0
 
 SWEP.Delay = 60 / 420
 SWEP.Num = 1

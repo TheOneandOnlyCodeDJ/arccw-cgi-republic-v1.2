@@ -4,7 +4,7 @@ SWEP.AdminOnly = false
 
 SWEP.Slot = 0
 
-SWEP.Category = "[ArcCW] Kraken's CGI Essentials - Republic"
+SWEP.Category = "[ArcCW] CN Republic Weapons"
 SWEP.Credits = "Kraken (Discord: @elbestiamasita)"
 SWEP.PrintName = "212th Batallion Shield"
 SWEP.Trivia_Class = "Shield"

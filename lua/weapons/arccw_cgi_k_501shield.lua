@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.AdminOnly = false
 
 
-SWEP.Category = "[ArcCW] Kraken's CGI Essentials - Republic"
+SWEP.Category = "[ArcCW] CN Republic Weapons"
 SWEP.Credits = "Kraken (Discord: @elbestiamasita)"
 SWEP.PrintName = "501st Legion Shield"
 SWEP.Trivia_Class = "Shield"

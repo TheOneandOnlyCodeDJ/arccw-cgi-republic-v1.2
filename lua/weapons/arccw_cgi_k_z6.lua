@@ -5,7 +5,7 @@ SWEP.Spawnable = true
 
 SWEP.Slot = 3
 
-SWEP.Category = "[ArcCW] Kraken's CGI Essentials - Republic"
+SWEP.Category = "[ArcCW] CN Republic Weapons"
 SWEP.Credits = "Kraken (Discord: @elbestiamasita)"
 SWEP.PrintName = "Z-6"
 SWEP.Trivia_Class = "Blaster, Rotary Blaster Cannon"
