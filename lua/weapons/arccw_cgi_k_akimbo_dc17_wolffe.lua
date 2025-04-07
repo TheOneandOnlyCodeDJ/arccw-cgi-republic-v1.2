@@ -7,7 +7,7 @@ SWEP.Slot = 3
 
 SWEP.Category = "[ArcCW] CN Republic Weapons"
 SWEP.Credits = "Kraken (Discord: @elbestiamasita)"
-SWEP.PrintName = "Akimbo DC-17 (Rex)"
+SWEP.PrintName = "Wolffe's Customized Dual Dc-17s"
 SWEP.Trivia_Class = "Blaster, Handblaster"
 SWEP.Trivia_Desc = "The DC-17 repeater hand blaster, also known more simply as a DC-17 hand blaster, was a model of heavy blaster pistol and the Grand Army of the Republic's standard-issue sidearm. Produced by BlasTech Industries, the DC-17 was usually given to weapon teams, the crews of vehicles, and officers. The weapon was one of the most reliable and toughest models of blaster pistols created, as well as having remarkable stopping power in its small design. The weapon was also well balanced, possessed a respectable rate of fire, and lightweight."
 SWEP.Trivia_Manufacturer = "BlastTech Industries"
@@ -15,6 +15,7 @@ SWEP.Trivia_Calibre = "Laser Bolt"
 SWEP.Trivia_Mechanism = "Condensed Tibanna-Gas"
 SWEP.Trivia_Country = "Galactic Republic"
 SWEP.IconOverride = "entities/arccw/kraken/cgi/17_dual.png"
+SWEP.ShootWhileSprint = true
 
 -- Base
 SWEP.DefaultBodygroups = "000000000000"
@@ -45,10 +46,10 @@ SWEP.BodyDamageMults = {
     [HITGROUP_RIGHTLEG] = 0.75,
 }
 
-SWEP.Damage = 36
+SWEP.Damage = 52
 SWEP.DamageMin = 17
 SWEP.RangeMin = 0
-SWEP.Range = 20
+SWEP.Range = 220
 SWEP.Penetration = 8
 SWEP.DamageType = DMG_BULLET
 SWEP.MuzzleVelocity = 2000
@@ -61,13 +62,13 @@ SWEP.HullSize = 1
 
 SWEP.AmmoPerShot = 1
 SWEP.ChamberSize = 0
-SWEP.Primary.ClipSize = 32
+SWEP.Primary.ClipSize = 24
 
 SWEP.RecoilSide = 0
 SWEP.RecoilRise = 0
 SWEP.Recoil = 0.1
 
-SWEP.Delay = 60 / 450
+SWEP.Delay = 60 / 400
 SWEP.Num = 1
 SWEP.Firemode = 1
 SWEP.Firemodes = {
