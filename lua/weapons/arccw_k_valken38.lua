@@ -67,9 +67,9 @@ SWEP.TracerCol = Color(0, 0, 250)
 
 SWEP.HullSize = 1
 SWEP.ChamberSize = 0
-SWEP.Primary.ClipSize = 25
+SWEP.Primary.ClipSize = 20
 
-SWEP.Recoil = 1.2
+SWEP.Recoil = 0.8
 SWEP.RecoilSide = 0.05
 SWEP.RecoilRise = 0.4
 
@@ -77,7 +77,7 @@ SWEP.MaxRecoilBlowback = 0
 SWEP.RecoilPunch = 0
 SWEP.RecoilVMShake = 0
 
-SWEP.Delay = 60 / 120
+SWEP.Delay = 60 / 160
 SWEP.Num = 1
 SWEP.Firemode = 1
 SWEP.Firemodes = {
@@ -104,8 +104,8 @@ SWEP.ShootVol = 100
 SWEP.ShootPitch = 100
 SWEP.ShootPitchVariation = 0
 
-SWEP.FirstShootSound = "kraken/cgi/dlt19x/dlt19x.wav"
-SWEP.ShootSound = "kraken/cgi/dlt19x/dlt19x.wav"
+SWEP.FirstShootSound = "kraken/cgi/e11d/e11d_6.wav"
+SWEP.ShootSound = "kraken/cgi/e11d/e11d_4.wav"
 SWEP.DistantShootSound = "ArcCW_Kraken.HeavyCorebass"
 SWEP.ShootSoundSilenced = "kraken/cgi/dc19/dc19.wav"
 
