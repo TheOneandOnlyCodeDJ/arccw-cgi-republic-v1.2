@@ -8,9 +8,9 @@ SWEP.Slot = 3 -- Change this if you want to select the weapon with other number
 
 SWEP.Category = "[ArcCW] CN Republic Weapons"
 SWEP.Credits = "Kraken (Discord: @elbestiamasita)"
-SWEP.PrintName = "SB-2"
+SWEP.PrintName = "SB-2 "
 SWEP.Trivia_Class = "Blaster Heavy Shotgun"
-SWEP.Trivia_Desc = "The SB-2 was a type of blaster that could pierce through enemy defenses. It was used by the Grand Army of the Republic's clone troopers during the Clone Wars between the Galactic Republic and the Confederacy of Independent Systems. The DP-23 fired blue blaster bolts, and had a ridged barrel with a pointed muzzle, a black stock, and a small foregrip."
+SWEP.Trivia_Desc = "The SB-2 is a heavy shotgun blaster used by the Grand Army of the Republic's clone troopers during the Clone Wars between the Galactic Republic and the Confederacy of Independent Systems. The SB-2 fired blue blaster bolts, and had a ridged barrel with a pointed muzzle, a black stock, and a small foregrip."
 SWEP.Trivia_Manufacturer = "BlastTech Industries"
 SWEP.Trivia_Calibre = "Condensed Tibanna-Gas"
 SWEP.Trivia_Country = "Galactic Republic"
@@ -41,18 +41,6 @@ SWEP.CanBash = true
 SWEP.ShotgunReload = true
 SWEP.ManualAction = true
 
-SWEP.ShotgunSpreadPattern = {
-    [1] = Angle(0, 0, 0),
-    [2] = Angle(0, 1, 0),
-    [3] = Angle(0, -1, 0),
-    [4] = Angle(2.1, 0, 0),
-    [5] = Angle(-2.1, 0, 0),
-    [6] = Angle(1.4, 1.2, 0),
-    [7] = Angle(-1.4, 1.2, 0),
-    [8] = Angle(1.4, -1.2, 0),
-    [9] = Angle(-1.4, -1.2, 0),
-}
-
 SWEP.BodyDamageMults = {
     [HITGROUP_HEAD] = 2.5,
     [HITGROUP_CHEST] = 1.25,
@@ -66,7 +54,7 @@ SWEP.BodyDamageMults = {
 SWEP.Damage = 22
 SWEP.DamageMin = 9
 SWEP.RangeMin = 0
-SWEP.Range = 170
+SWEP.Range = 90
 SWEP.Penetration = 8
 SWEP.DamageType = DMG_BULLET
 SWEP.MuzzleVelocity = 9000
@@ -77,14 +65,14 @@ SWEP.TracerCol = Color(0, 0, 250)
 
 SWEP.HullSize = 1
 SWEP.ChamberSize = 0
-SWEP.Primary.ClipSize = 12
+SWEP.Primary.ClipSize = 6
 
 SWEP.Recoil = 4
-SWEP.RecoilSide = 1
-SWEP.RecoilRise = 2
-SWEP.MaxRecoilBlowback = 2
-SWEP.RecoilPunch = 1.5
-SWEP.RecoilVMShake = 2
+SWEP.RecoilSide = 0.1
+SWEP.RecoilRise = 0.5
+SWEP.MaxRecoilBlowback = 0
+SWEP.RecoilPunch = 0
+SWEP.RecoilVMShake = 0
 
 SWEP.Delay = 60 / 312
 SWEP.Num = 9
@@ -98,7 +86,7 @@ SWEP.Firemodes = {
    	}
 }
 
-SWEP.AccuracyMOA = 5
+SWEP.AccuracyMOA = 2
 SWEP.HipDispersion = 200
 SWEP.MoveDispersion = 75
 SWEP.JumpDispersion = 150
@@ -114,10 +102,10 @@ SWEP.ShootVol = 100
 SWEP.ShootPitch = 100
 SWEP.ShootPitchVariation = 0
 
-SWEP.FirstShootSound = "ArcCW_Kraken.SW_SB2"
-SWEP.ShootSound = "ArcCW_Kraken.SW_SB2"
+SWEP.FirstShootSound = "kraken/cgi/scatter/scattergun.wav"
+SWEP.ShootSound = "kraken/cgi/scatter/scattergun.wav"
 SWEP.DistantShootSound = "ArcCW_Kraken.HeavyCorebass"
-SWEP.ShootSoundSilenced = "armas/disparos/dc19.wav"
+SWEP.ShootSoundSilenced = "kraken/cgi/dc19/dc19.wav"
 
 SWEP.MuzzleEffect = "blaster_muzzle_blue"
 SWEP.MuzzleFlashColor = Color(0, 0, 255)
@@ -161,81 +149,81 @@ SWEP.AttachmentElements = {
     },
 }
 
-SWEP.Attachments = {
-    {
-        PrintName = "Optic", 
-        DefaultAttName = "Iron Sights",
-        Slot = {"optic", "optic_lp"},
-        Bone = "tag_weapon", 
-        InstalledEles = {"scope_attach"},
-        Offset = {
-            vpos = Vector(6, 0, 3.35), 
-            vang = Angle(0, 0, 0),
-        },
-        CorrectivePos = Vector(0, 0, 0),
-        CorrectiveAng = Angle(0, 0, 0),
-    }, 
-    {
-        PrintName = "Internal Compression",
-        DefaultAttName = "Standard",
-        Slot = {"muzzle", "dlt19_muzzle", "dc15a_muzzle", "cr2_muzzle", "cr2c_muzzle", "stealth_muzzle", "b1120_muzzle"},
-    },
-    {
-        PrintName = "Tactical",
-        Slot = {"tactical", "tac_pistol", "tac"},
-        VMScale = Vector(0.95, 0.95, 0.95),
-        WMScale = Vector(0.95, 0.95, 0.95),
-        Bone = "tag_weapon",
-        Offset = {
-            vpos = Vector(12.5, -0.7, 2.87),
-            vang = Angle(0, 0, 120),
-        },
-    },
-    {
-        PrintName = "Mode",
-        DefaultAttName = "None",
-        Slot = {"sw_mode_rifle"},
-    },   
-    {
-        PrintName = "Ammunition",
-        DefaultAttName = "Standard",
-        Slot = {"ammo"}
-    },
-    {
-        PrintName = "Internal Modifications",
-        DefaultAttName = "None",
-        Slot = "uc_fg",
-    },
-    {
-        PrintName = "Perk",
-        DefaultAttName = "None",
-        Slot = "perk",
-    },
-    {
-        PrintName = "Charm",
-        DefaultAttName = "None",
-        Slot = {"charm"},
-        Bone = "tag_weapon",
-        VMScale = Vector(0.7, 0.7, 0.7),
-        WMScale = Vector(0.7, 0.7, 0.7),
-        Offset = {
-            vpos = Vector(1.8, -0.55, 1.5), 
-            vang = Angle(0, 0, 0),
-        },
-    },
-    {
-        PrintName = "Killcounter",
-        DefaultAttName = "None",
-        Slot = {"killcounter"},
-        Bone = "tag_weapon",
-        VMScale = Vector(1,1,1),
-        WMScale = Vector(1,1,1),
-        Offset = {
-            vpos = Vector(5, -0.55, 1.5), 
-            vang = Angle(0, 0, 0),
-        },
-    },
-}
+-- SWEP.Attachments = {
+--     {
+--         PrintName = "Optic", 
+--         DefaultAttName = "Iron Sights",
+--         Slot = {"optic", "optic_lp"},
+--         Bone = "tag_weapon", 
+--         InstalledEles = {"scope_attach"},
+--         Offset = {
+--             vpos = Vector(6, 0, 3.35), 
+--             vang = Angle(0, 0, 0),
+--         },
+--         CorrectivePos = Vector(0, 0, 0),
+--         CorrectiveAng = Angle(0, 0, 0),
+--     }, 
+--     {
+--         PrintName = "Internal Compression",
+--         DefaultAttName = "Standard",
+--         Slot = {"muzzle", "dlt19_muzzle", "dc15a_muzzle", "cr2_muzzle", "cr2c_muzzle", "stealth_muzzle", "b1120_muzzle"},
+--     },
+--     {
+--         PrintName = "Tactical",
+--         Slot = {"tactical", "tac_pistol", "tac"},
+--         VMScale = Vector(0.95, 0.95, 0.95),
+--         WMScale = Vector(0.95, 0.95, 0.95),
+--         Bone = "tag_weapon",
+--         Offset = {
+--             vpos = Vector(12.5, -0.7, 2.87),
+--             vang = Angle(0, 0, 120),
+--         },
+--     },
+--     {
+--         PrintName = "Mode",
+--         DefaultAttName = "None",
+--         Slot = {"sw_mode_rifle"},
+--     },   
+--     {
+--         PrintName = "Ammunition",
+--         DefaultAttName = "Standard",
+--         Slot = {"ammo"}
+--     },
+--     {
+--         PrintName = "Internal Modifications",
+--         DefaultAttName = "None",
+--         Slot = "uc_fg",
+--     },
+--     {
+--         PrintName = "Perk",
+--         DefaultAttName = "None",
+--         Slot = "perk",
+--     },
+--     {
+--         PrintName = "Charm",
+--         DefaultAttName = "None",
+--         Slot = {"charm"},
+--         Bone = "tag_weapon",
+--         VMScale = Vector(0.7, 0.7, 0.7),
+--         WMScale = Vector(0.7, 0.7, 0.7),
+--         Offset = {
+--             vpos = Vector(1.8, -0.55, 1.5), 
+--             vang = Angle(0, 0, 0),
+--         },
+--     },
+--     {
+--         PrintName = "Killcounter",
+--         DefaultAttName = "None",
+--         Slot = {"killcounter"},
+--         Bone = "tag_weapon",
+--         VMScale = Vector(1,1,1),
+--         WMScale = Vector(1,1,1),
+--         Offset = {
+--             vpos = Vector(5, -0.55, 1.5), 
+--             vang = Angle(0, 0, 0),
+--         },
+--     },
+-- }
 
 SWEP.Animations = {
     ["idle"] = {
