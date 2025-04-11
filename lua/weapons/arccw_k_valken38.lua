@@ -97,12 +97,12 @@ SWEP.JumpDispersion = 250
 -- Speed Mult
 SWEP.SpeedMult = 1
 SWEP.SightedSpeedMult = 0.85
-SWEP.SightTime = 0.30
+SWEP.SightTime = 0.20
 
 SWEP.Primary.Ammo = "ar2"
 SWEP.ShootVol = 100
 SWEP.ShootPitch = 100
-SWEP.ShootPitchVariation = 0
+SWEP.ShootPitchVariation = 0.15
 
 SWEP.FirstShootSound = "kraken/cgi/e11d/e11d_6.wav"
 SWEP.ShootSound = "kraken/cgi/e11d/e11d_4.wav"

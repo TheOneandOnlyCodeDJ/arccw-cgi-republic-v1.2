@@ -51,7 +51,7 @@ SWEP.BodyDamageMults = {
     [HITGROUP_RIGHTLEG] = 0.75,
 }
 
-SWEP.Damage = 22
+SWEP.Damage = 38
 SWEP.DamageMin = 9
 SWEP.RangeMin = 0
 SWEP.Range = 90
@@ -75,7 +75,7 @@ SWEP.RecoilPunch = 0
 SWEP.RecoilVMShake = 0
 
 SWEP.Delay = 60 / 312
-SWEP.Num = 9
+SWEP.Num = 8
 SWEP.Firemode = 1
 SWEP.Firemodes = {
     {
@@ -86,13 +86,13 @@ SWEP.Firemodes = {
    	}
 }
 
-SWEP.AccuracyMOA = 2
+SWEP.AccuracyMOA = 35
 SWEP.HipDispersion = 200
-SWEP.MoveDispersion = 75
-SWEP.JumpDispersion = 150
+SWEP.MoveDispersion = 100
+SWEP.JumpDispersion = 500
 
 -- Speed Mult
-SWEP.SpeedMult = 0.95
+SWEP.SpeedMult = 1
 SWEP.SightedSpeedMult = 0.75
 SWEP.SightTime = 0.30
 
