@@ -91,6 +91,17 @@ SWEP.HipDispersion = 200
 SWEP.MoveDispersion = 100
 SWEP.JumpDispersion = 500
 
+-- SWEP.ShotgunSpreadPattern = {
+--     [1] = Angle(0, 0, 0),
+--     [2] = Angle(0, 1, 0),
+--     [3] = Angle(0, -1, 0),
+--     [4] = Angle(2.1, 0, 0),
+--     [5] = Angle(-2.1, 0, 0),
+--     [6] = Angle(1.4, 1.2, 0),
+--     [7] = Angle(-1.4, 1.2, 0),
+--     [8] = Angle(1.4, -1.2, 0),
+-- }
+
 -- Speed Mult
 SWEP.SpeedMult = 1
 SWEP.SightedSpeedMult = 0.75
