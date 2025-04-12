@@ -117,7 +117,7 @@ SWEP.ShootPitchVariation = 0.2
 
 SWEP.FirstShootSound = "kraken/cgi/dc19/dc19.wav"
 SWEP.ShootSound = "kraken/cgi/dc19/dc19.wav"
-SWEP.DistantShootSound = "ArcCW_Kraken.LightCorebass"
+-- SWEP.DistantShootSound = "ArcCW_Kraken.LightCorebass"
 SWEP.ShootSoundSilenced = "kraken/cgi/dc19/dc19.wav"
 
 SWEP.NoFlash = nil

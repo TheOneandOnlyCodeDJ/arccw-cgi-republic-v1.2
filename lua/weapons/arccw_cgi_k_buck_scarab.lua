@@ -22,6 +22,7 @@ SWEP.MirrorVMWM = true
 SWEP.UseHands = true
 SWEP.ViewModel = "models/kraken/cgi/v_cgi_dr20.mdl"
 SWEP.WorldModel = "models/arccw/kraken/w_e11.mdl"
+SWEP.ShootWhileSprint = true
 
 SWEP.ViewModelFOV = 65
 
@@ -114,7 +115,7 @@ SWEP.ShootPitchVariation = 0.2
 -- SWEP.ShootSound = "kraken/cgi/x8/x8_2.wav"
 SWEP.FirstShootSound = "kraken/cgi/dc17m/sniper.wav"
 SWEP.ShootSound = "kraken/cgi/dc17m/sniper.wav"
-SWEP.DistantShootSound = "ArcCW_Kraken.HeavyCorebass"
+-- SWEP.DistantShootSound = "ArcCW_Kraken.HeavyCorebass"
 SWEP.ShootSoundSilenced = "kraken/cgi/dc19/dc19.wav"
 
 SWEP.NoFlash = nil
