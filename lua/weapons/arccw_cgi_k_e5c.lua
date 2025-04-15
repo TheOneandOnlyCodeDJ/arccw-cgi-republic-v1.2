@@ -5,7 +5,7 @@ SWEP.Spawnable = true
 
 SWEP.Slot = 3
 
-SWEP.Category = "[ArcCW] Kraken's CGI Essentials - CIS"
+SWEP.Category = "[ArcCW] CN CIS Weapons"
 SWEP.Credits = "Kraken (Discord: @elbestiamasita)"
 SWEP.PrintName = "E-5c"
 SWEP.Trivia_Class = "Blaster, Rifle"
@@ -193,68 +193,68 @@ SWEP.Attachments = {
         },
         CorrectiveAng = Angle(0, 180, 0),
         CorrectivePos = Vector(0, 0, 0),
-    },
-    {
-        PrintName = "Muzzle",
-        DefaultAttName = "None",
-        Slot = {"muzzle", "dlt19_muzzle", "dc15a_muzzle", "cr2_muzzle", "cr2c_muzzle", "stealth_muzzle", "b1120_muzzle"},
-        Bone = "E11_GUN",
-        Offset = {
-            vpos = Vector(0.23, 22.2, 1.1),
-            vang = Angle(0, -90, 0),
-        },
-    },
-    {
-        PrintName = "Tactical",
-        DefaultAttName = "None",
-        Slot = {"tactical", "tac_pistol"},
-        Bone = "E11_GUN",
-        VMScale = Vector(0.7, 0.7, 0.7),
-        WMScale = Vector(0.7, 0.7, 0.7),
-        Offset = {
-            vpos = Vector(1.05, 12, 1.1),
-            vang = Angle(0, -90, 90),
-        },
-    },
-    {
-        PrintName = "Energization",
-        DefaultAttName = "Standard",
-        Slot = {"ammo", "special_ammo"}
-    },
-    {
-        PrintName = "Mode",
-        DefaultAttName = "None",
-        Slot = {"sw_mode", "sw_mode_rifle"},
-    },   
-    {
-        PrintName = "Perk",
-        DefaultAttName = "None",
-        Slot = "perk",
-    },
-    {
-        PrintName = "Charm",
-        DefaultAttName = "None",
-        Slot = {"charm"},
-        Bone = "E11_GUN",
-        VMScale = Vector(0.7, 0.7, 0.7),
-        WMScale = Vector(0.7, 0.7, 0.7),
-        Offset = {
-            vpos = Vector(0.85, 0.15, -0.16),
-            vang = Angle(0, -90, 0),
-        },
-    },
-    {
-        PrintName = "Killcounter",
-        DefaultAttName = "None",
-        Slot = {"killcounter"},
-        Bone = "E11_GUN",
-        VMScale = Vector(0.9, 0.9, 0.9),
-        WMScale = Vector(0.9, 0.9, 0.9),
-        Offset = {
-            vpos = Vector(0.8, -2.5, 1.1),
-            vang = Angle(0, -90, 0),
-        },
-    },
+    }
+    -- {
+    --     PrintName = "Muzzle",
+    --     DefaultAttName = "None",
+    --     Slot = {"muzzle", "dlt19_muzzle", "dc15a_muzzle", "cr2_muzzle", "cr2c_muzzle", "stealth_muzzle", "b1120_muzzle"},
+    --     Bone = "E11_GUN",
+    --     Offset = {
+    --         vpos = Vector(0.23, 22.2, 1.1),
+    --         vang = Angle(0, -90, 0),
+    --     },
+    -- },
+    -- {
+    --     PrintName = "Tactical",
+    --     DefaultAttName = "None",
+    --     Slot = {"tactical", "tac_pistol"},
+    --     Bone = "E11_GUN",
+    --     VMScale = Vector(0.7, 0.7, 0.7),
+    --     WMScale = Vector(0.7, 0.7, 0.7),
+    --     Offset = {
+    --         vpos = Vector(1.05, 12, 1.1),
+    --         vang = Angle(0, -90, 90),
+    --     },
+    -- },
+    -- {
+    --     PrintName = "Energization",
+    --     DefaultAttName = "Standard",
+    --     Slot = {"ammo", "special_ammo"}
+    -- },
+    -- {
+    --     PrintName = "Mode",
+    --     DefaultAttName = "None",
+    --     Slot = {"sw_mode", "sw_mode_rifle"},
+    -- },   
+    -- {
+    --     PrintName = "Perk",
+    --     DefaultAttName = "None",
+    --     Slot = "perk",
+    -- },
+    -- {
+    --     PrintName = "Charm",
+    --     DefaultAttName = "None",
+    --     Slot = {"charm"},
+    --     Bone = "E11_GUN",
+    --     VMScale = Vector(0.7, 0.7, 0.7),
+    --     WMScale = Vector(0.7, 0.7, 0.7),
+    --     Offset = {
+    --         vpos = Vector(0.85, 0.15, -0.16),
+    --         vang = Angle(0, -90, 0),
+    --     },
+    -- },
+    -- {
+    --     PrintName = "Killcounter",
+    --     DefaultAttName = "None",
+    --     Slot = {"killcounter"},
+    --     Bone = "E11_GUN",
+    --     VMScale = Vector(0.9, 0.9, 0.9),
+    --     WMScale = Vector(0.9, 0.9, 0.9),
+    --     Offset = {
+    --         vpos = Vector(0.8, -2.5, 1.1),
+    --         vang = Angle(0, -90, 0),
+    --     },
+    -- },
 }
 
 SWEP.Animations = {

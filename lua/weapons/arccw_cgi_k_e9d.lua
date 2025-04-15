@@ -64,7 +64,7 @@ SWEP.RecoilSide = 0
 SWEP.RecoilRise = 0
 SWEP.Recoil = 0.2
 
-SWEP.Delay = 60 / 300
+SWEP.Delay = 60 / 220
 SWEP.Num = 1
 SWEP.Firemode = 1
 SWEP.Firemodes = {

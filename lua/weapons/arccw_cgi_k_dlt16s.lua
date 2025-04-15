@@ -43,7 +43,7 @@ SWEP.BodyDamageMults = {
     [HITGROUP_RIGHTLEG] = 0.75,
 }
 
-SWEP.Damage = 39
+SWEP.Damage = 32
 SWEP.DamageMin = 29
 SWEP.RangeMin = 0
 SWEP.Range = 200
@@ -117,8 +117,8 @@ SWEP.ShootVol = 120
 SWEP.ShootPitch = 105
 SWEP.ShootPitchVariation = 0.3
 
-SWEP.FirstShootSound = "kraken/cgi/dlt16/dlt19_2.wav"
-SWEP.ShootSound = "kraken/cgi/dlt16/dlt19_8.wav"
+SWEP.FirstShootSound = "kraken/cgi/e5/e5c.wav"
+SWEP.ShootSound = "kraken/cgi/e5/e5c.wav"
 -- SWEP.DistantShootSound = "ArcCW_Kraken.HeavyCorebass"
 SWEP.ShootSoundSilenced = "kraken/cgi/dc19/dc19.wav"
 

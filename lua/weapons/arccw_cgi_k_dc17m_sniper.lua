@@ -64,7 +64,7 @@ SWEP.RecoilSide = 0.2
 SWEP.RecoilRise = 0.6
 SWEP.Recoil = 3
 
-SWEP.Delay = 60 / 120
+SWEP.Delay = 60 / 80
 SWEP.Num = 1
 SWEP.Firemode = 1
 SWEP.Firemodes = {
@@ -163,10 +163,10 @@ SWEP.Attachments = {
     {
         PrintName = "Optic", 
         DefaultAttName = "None", 
-        Slot = "optic",
+        Slot = "dc17m_optic",
         Bone = "DC-17M",
         Offset = {
-            vpos = Vector(0.06, -2.8, -1.6),
+            vpos = Vector(0.06, -8.8, -1.6),
             vang = Angle(0, 90, 180),
         },
         CorrectiveAng = Angle(0, 180, 0),

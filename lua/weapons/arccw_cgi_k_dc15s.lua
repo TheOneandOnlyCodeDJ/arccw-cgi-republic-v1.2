@@ -43,10 +43,10 @@ SWEP.BodyDamageMults = {
     [HITGROUP_RIGHTLEG] = 0.75,
 }
 
-SWEP.Damage = 42
-SWEP.DamageMin = 25
+SWEP.Damage = 46
+SWEP.DamageMin = 30
 SWEP.RangeMin = 0
-SWEP.Range = 300
+SWEP.Range = 200
 SWEP.Penetration = 8
 SWEP.DamageType = DMG_BULLET
 SWEP.MuzzleVelocity = 2000
@@ -64,7 +64,7 @@ SWEP.RecoilSide = 0
 SWEP.RecoilRise = 0
 SWEP.Recoil = 0.1
 
-SWEP.Delay = 60 / 250
+SWEP.Delay = 60 / 280
 SWEP.Num = 1
 SWEP.Firemode = 1
 SWEP.Firemodes = {

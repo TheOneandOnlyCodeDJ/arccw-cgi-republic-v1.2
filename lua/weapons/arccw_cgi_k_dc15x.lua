@@ -43,8 +43,8 @@ SWEP.BodyDamageMults = {
     [HITGROUP_RIGHTLEG] = 0.75,
 }
 
-SWEP.Damage = 165
-SWEP.DamageMin = 120
+SWEP.Damage = 160
+SWEP.DamageMin = 100
 SWEP.RangeMin = 0
 SWEP.Range = 900
 SWEP.Penetration = 20
@@ -58,13 +58,13 @@ SWEP.Tracer = "tracer_blue"
 SWEP.HullSize = 1
 
 SWEP.ChamberSize = 0
-SWEP.Primary.ClipSize = 12
+SWEP.Primary.ClipSize = 8
 
 SWEP.RecoilSide = 0.015
 SWEP.RecoilRise = 0.1
-SWEP.Recoil = 1.3
+SWEP.Recoil = 2
 
-SWEP.Delay = 60 / 100
+SWEP.Delay = 60 / 65
 SWEP.Num = 1
 SWEP.Firemode = 1
 SWEP.Firemodes = {
