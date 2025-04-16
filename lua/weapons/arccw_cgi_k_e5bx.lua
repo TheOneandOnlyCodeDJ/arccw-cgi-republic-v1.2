@@ -60,9 +60,9 @@ SWEP.HullSize = 1
 SWEP.ChamberSize = 0
 SWEP.Primary.ClipSize = 20
 
-SWEP.RecoilSide = 0.2
-SWEP.RecoilRise = 0.6
-SWEP.Recoil = 0.65
+SWEP.RecoilSide = 0.05
+SWEP.RecoilRise = 0.1
+SWEP.Recoil = 0.3
 
 SWEP.Delay = 60 / 250
 SWEP.Num = 1
@@ -101,10 +101,10 @@ SWEP.Firemodes = {
 --     end
 -- end
 
-SWEP.AccuracyMOA = 0.2
-SWEP.HipDispersion = 200
-SWEP.MoveDispersion = 500
-SWEP.JumpDispersion = 800
+SWEP.AccuracyMOA = 0
+SWEP.HipDispersion = 100
+SWEP.MoveDispersion = 50
+SWEP.JumpDispersion = 250
 
 -- Speed Mult
 SWEP.SpeedMult = 1
