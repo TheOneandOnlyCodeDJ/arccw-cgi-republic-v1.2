@@ -60,9 +60,9 @@ SWEP.HullSize = 1
 SWEP.ChamberSize = 0
 SWEP.Primary.ClipSize = 5
 
-SWEP.RecoilSide = 0.2
-SWEP.RecoilRise = 0.6
-SWEP.Recoil = 3
+SWEP.RecoilSide = 0.05
+SWEP.RecoilRise = 0.1
+SWEP.Recoil = 1.3
 
 SWEP.Delay = 60 / 80
 SWEP.Num = 1

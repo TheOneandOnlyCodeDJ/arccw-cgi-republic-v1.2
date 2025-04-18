@@ -60,9 +60,9 @@ SWEP.HullSize = 1
 SWEP.ChamberSize = 0
 SWEP.Primary.ClipSize = 100
 
-SWEP.Recoil = 1.3
+SWEP.Recoil = 1.1
 SWEP.RecoilSide = 0.015
-SWEP.RecoilRise = 0.1
+SWEP.RecoilRise = 0.07
 SWEP.RecoilPunch = 0
 SWEP.RecoilVMShake = 0
 SWEP.VisualRecoilMult = 0

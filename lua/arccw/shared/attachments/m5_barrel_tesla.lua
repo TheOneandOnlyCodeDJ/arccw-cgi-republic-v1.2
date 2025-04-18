@@ -15,7 +15,7 @@ att.Override_HeatLockout = true
 
 att.Mult_HeatCapacity = 1
 att.Mult_FixTime = 1
-att.Mult_HeatDissipation = 1
+att.Mult_HeatDissipation = 2
 att.Mult_HeatDelayTime = 1
 
 att.Override_Tracer = "ToolTracer"

@@ -51,12 +51,12 @@ SWEP.BodyDamageMults = {
     [HITGROUP_RIGHTLEG] = 0.75,
 }
 
-SWEP.Damage = 38
+SWEP.Damage = 46
 SWEP.DamageMin = 9
 SWEP.RangeMin = 0
 SWEP.Range = 90
 SWEP.Penetration = 8
-SWEP.DamageType = DMG_BULLET
+SWEP.DamageType = DMG_BLAST
 SWEP.MuzzleVelocity = 9000
 
 SWEP.TraceNum = 1
