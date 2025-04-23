@@ -8,7 +8,7 @@ att.AutoStats = true
 att.Slot = {"sw_bayonet1"}
 att.ActivateElements = {"sw_bayonet1"}
 
-att.Mult_MeleeTime = 0.7
-att.Mult_MeleeDamage = 200
-att.Add_MeleeRange = 20
+att.Mult_MeleeTime = 1.2
+att.Mult_MeleeDamage = 7
+att.Add_MeleeRange = 40
 att.Mult_MeleeAttackTime = 1

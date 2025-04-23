@@ -158,41 +158,46 @@ SWEP.AttachmentElements = {
 }
 WMOverride = "models/kraken/cgi/v_cgi_rps6.mdl"
 
--- SWEP.Attachments = {
---     {
---         PrintName = "Tactical",
---         DefaultAttName = "None",
---         Slot = {"tactical", "tac_pistol"},
---         Bone = "tag_launcher_offset",
---         VMScale = Vector(1,1,1),
---         WMScale = Vector(11,11,11),
---         Offset = {
---             vpos = Vector(17, -1.5, 0.2),
---             vang = Angle(0, 0, 90),
---             wpos = Vector(120, 18, -60),
---             wang = Angle(0, 5, -90)
---         },
---     },
---     {
---         PrintName = "Perk",
---         DefaultAttName = "None",
---         Slot = "perk",
---     },
---     {
---         PrintName = "Charm",
---         DefaultAttName = "None",
---         Slot = {"charm"},
---         Bone = "tag_launcher_offset",
---         VMScale = Vector(1,1,1),
---         WMScale = Vector(11,11,11),
---         Offset = {
---             vpos = Vector(9.5, -2.34, 0.5),
---             vang = Angle(0, 0, 0),
---             wpos = Vector(50, 26, -60),
---             wang = Angle(0, 0, 180)
---         },
---     },
--- }
+SWEP.Attachments = {
+    {
+        PrintName = "Ammunition",
+        DefaultAttName = "Rocket",
+        Slot = {"k_rocket_ammo"}
+    }
+    -- {
+    --     PrintName = "Tactical",
+    --     DefaultAttName = "None",
+    --     Slot = {"tactical", "tac_pistol"},
+    --     Bone = "tag_launcher_offset",
+    --     VMScale = Vector(1,1,1),
+    --     WMScale = Vector(11,11,11),
+    --     Offset = {
+    --         vpos = Vector(17, -1.5, 0.2),
+    --         vang = Angle(0, 0, 90),
+    --         wpos = Vector(120, 18, -60),
+    --         wang = Angle(0, 5, -90)
+    --     },
+    -- },
+    -- {
+    --     PrintName = "Perk",
+    --     DefaultAttName = "None",
+    --     Slot = "perk",
+    -- },
+    -- {
+    --     PrintName = "Charm",
+    --     DefaultAttName = "None",
+    --     Slot = {"charm"},
+    --     Bone = "tag_launcher_offset",
+    --     VMScale = Vector(1,1,1),
+    --     WMScale = Vector(11,11,11),
+    --     Offset = {
+    --         vpos = Vector(9.5, -2.34, 0.5),
+    --         vang = Angle(0, 0, 0),
+    --         wpos = Vector(50, 26, -60),
+    --         wang = Angle(0, 0, 180)
+    --     },
+    -- },
+}
 
 -- Animations
 SWEP.BulletBones = {

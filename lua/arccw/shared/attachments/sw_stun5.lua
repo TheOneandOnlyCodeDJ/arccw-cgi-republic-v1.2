@@ -10,7 +10,7 @@ att.Desc_Cons = {
 att.Desc_Neutrals = {
 }
 att.Slot = {"sw_ammo"}
-att.Mult_RPM = 0.1
+att.Mult_RPM = 0.3
 att.Mult_Damage = 0
 att.Mult_Recoil = 5
 
