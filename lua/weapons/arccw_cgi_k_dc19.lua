@@ -44,9 +44,9 @@ SWEP.BodyDamageMults = {
 }
 
 SWEP.Damage = 44
-SWEP.DamageMin = 25
+SWEP.DamageMin = 44
 SWEP.RangeMin = 0
-SWEP.Range = 300
+SWEP.Range = 400
 SWEP.Penetration = 10
 SWEP.DamageType = DMG_BULLET
 SWEP.MuzzleVelocity = 2000
@@ -173,21 +173,21 @@ SWEP.AttachmentElements = {
 }
 
 SWEP.Attachments = {
-    -- {
-    --     PrintName = "Sight",
-    --     DefaultAttName = "Standard DC-15s Sight",
-    --     Slot = "optic",
-    --     VMScale = Vector(0.8, 0.8, 0.8),
-    --     WMScale = Vector(0.8, 0.8, 0.8),
-    --     Bone = "DC15",
-    --     Offset = {
-    --         vpos = Vector(-0.1, -1.4, 5),
-    --         vang = Angle(90, 0, -90),
-    --     },
-    --     InstalledEles = {"e11_scope"},
-    --     CorrectiveAng = Angle(0, 0, 0),
-    --     CorrectivePos = Vector(0, 0, 0),
-    -- },
+    {
+        PrintName = "Sight",
+        DefaultAttName = "Standard DC-15s Sight",
+        Slot = "optic",
+        VMScale = Vector(0.8, 0.8, 0.8),
+        WMScale = Vector(0.8, 0.8, 0.8),
+        Bone = "DC15",
+        Offset = {
+            vpos = Vector(-0.1, -1.4, 5),
+            vang = Angle(90, 0, -90),
+        },
+        InstalledEles = {"e11_scope"},
+        CorrectiveAng = Angle(0, 0, 0),
+        CorrectivePos = Vector(0, 0, 0),
+    },
     -- {
     --     PrintName = "Muzzle",
     --     DefaultAttName = "None",
