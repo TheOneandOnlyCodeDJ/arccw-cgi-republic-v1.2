@@ -217,11 +217,11 @@ SWEP.Attachments = {
     --         vang = Angle(0, -90, 90),
     --     },
     -- },
-    -- {
-    --     PrintName = "Energization",
-    --     DefaultAttName = "Standard",
-    --     Slot = {"ammo", "special_ammo"}
-    -- },
+    {
+        PrintName = "Energization",
+        DefaultAttName = "Standard",
+        Slot = {"ammo", "sw_ammo"}
+    },
     -- {
     --     PrintName = "Mode",
     --     DefaultAttName = "None",

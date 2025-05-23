@@ -115,8 +115,10 @@ SWEP.ShootVol = 120
 SWEP.ShootPitch = 95
 SWEP.ShootPitchVariation = 0.2
 
-SWEP.FirstShootSound = "kraken/cgi/scatter/scattergun.wav"
-SWEP.ShootSound = "kraken/cgi/scatter/scattergun.wav"
+-- SWEP.FirstShootSound = "kraken/cgi/scatter/scattergun.wav"
+-- SWEP.ShootSound = "kraken/cgi/scatter/scattergun.wav"
+SWEP.FirstShootSound = "arccw/kraken/galexpansion_vol2/ee9/fire.wav"
+SWEP.ShootSound = "arccw/kraken/galexpansion_vol2/ee9/fire.wav"
 -- SWEP.DistantShootSound = "ArcCW_Kraken.HeavyCorebass"
 SWEP.ShootSoundSilenced = "kraken/cgi/dc19/dc19.wav"
 

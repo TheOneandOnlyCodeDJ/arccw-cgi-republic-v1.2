@@ -60,9 +60,9 @@ SWEP.HullSize = 1
 SWEP.ChamberSize = 0
 SWEP.Primary.ClipSize = 36
 
-SWEP.RecoilSide = 0.015
-SWEP.RecoilRise = 0.035
-SWEP.Recoil = 0.15
+SWEP.RecoilSide = 0.005
+SWEP.RecoilRise = 0.015
+SWEP.Recoil = 0.05
 
 SWEP.Delay = 60 / 820
 SWEP.Num = 1
@@ -75,12 +75,9 @@ SWEP.Firemodes = {
     {
         Mode = -3,
         PostBurstDelay = 0.1,
-        RunawayBurst = false,
+        RunawayBurst = true,
         Mult_RPM = 1,
-    },
-    {
-		Mode = 1,
-    },
+    }, 
 	{
 		Mode = 0,
    	}

@@ -67,11 +67,11 @@ SWEP.TracerCol = Color(0, 0, 250)
 
 SWEP.HullSize = 1
 SWEP.ChamberSize = 0
-SWEP.Primary.ClipSize = 20
+SWEP.Primary.ClipSize = 32
 
-SWEP.Recoil = 0.8
+SWEP.Recoil = 0.6
 SWEP.RecoilSide = 0.05
-SWEP.RecoilRise = 0.4
+SWEP.RecoilRise = 0.3
 
 SWEP.MaxRecoilBlowback = 0
 SWEP.RecoilPunch = 0
@@ -140,7 +140,7 @@ SWEP.CustomizeAng = Angle(0, 40, 30)
 SWEP.HolsterPos = Vector(4, 0, -2)
 SWEP.HolsterAng = Angle(0, 30, -15)
 
-SWEP.Bipod_Integral = true
+SWEP.Bipod_Integral = false
 SWEP.BipodDispersion = 1
 SWEP.BipodRecoil = 1 
 
