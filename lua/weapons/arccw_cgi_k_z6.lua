@@ -36,7 +36,7 @@ SWEP.WorldModelOffset = {
 -- Special properties
 SWEP.Jamming = true
 SWEP.HeatGain = 0.5
-SWEP.HeatCapacity = 85
+SWEP.HeatCapacity = 72
 SWEP.HeatDissipation = 12
 SWEP.HeatLockout = true
 SWEP.HeatDelayTime = 0.5
@@ -70,7 +70,7 @@ SWEP.Tracer = "tracer_blue"
 SWEP.HullSize = 1
 
 SWEP.ChamberSize = 0
-SWEP.Primary.ClipSize = 200
+SWEP.Primary.ClipSize = 500
 SWEP.ExtendedClipSize = 250
 SWEP.ReducedClipSize = 100
 

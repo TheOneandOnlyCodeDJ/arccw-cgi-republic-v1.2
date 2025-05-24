@@ -134,7 +134,7 @@ SWEP.ReloadInSights_CloseIn = 0.25
 SWEP.ReloadInSights_FOVMult = 0.875
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-3.05, -2.257, 1.7),
+    Pos = Vector(-3.05, -2.257, 1.4),
     Ang = Vector(1.6, 0, 0),
     Magnification = 1,
     SwitchToSound = "arccw/kraken/interaction/zoom-in.wav",
@@ -166,8 +166,22 @@ SWEP.InBipodPos = Vector(-8, 0, -4)
 SWEP.InBipodMult = Vector(2, 0, 1)
 
 -- Attachments
-SWEP.DefaultElements = {"muzzle"}
+SWEP.DefaultElements = {"muzzle", "irons"}
 SWEP.AttachmentElements = {
+    ["irons"] = {
+        VMBodygroups = {{ind = 5, bg = 1}}, -- Using ind 5 for iron sights (adjust if needed)
+        VMElements = {
+            {
+                Model = "models/jajoff/sps/cgiweapons/tc13j/mando_westar35_scope2.mdl",
+                Bone = "DC_15X_Rifle",
+                Scale = Vector(0.6, 0.6, 0.6), -- Slightly larger scale for this weapon
+                Offset = {
+                    pos = Vector(-0.135, -3.5, 1.8), -- Adjusted position for Valken SAW
+                    ang = Angle(0, -90, 0)
+                }
+            }
+        }
+    },
     ["e11_scope"] = {
         VMBodygroups = {{ind = 3, bg = 1}},
     },

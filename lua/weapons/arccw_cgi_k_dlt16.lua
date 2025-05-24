@@ -138,7 +138,7 @@ SWEP.ReloadInSights_FOVMult = 0.875
 
 SWEP.IronSightStruct = {
     Pos = Vector(-3.093, -2.257, 1.6),
-    Ang = Angle(1.225, 0, 0), -- Fixed from Vector to Angle
+    Ang = Angle(0, 0, 0), -- Fixed from Vector to Angle
     Magnification = 1,
     SwitchToSound = "arccw/kraken/interaction/zoom-in.wav",
     SwitchFromSound = "arccw/kraken/interaction/zoom-out.wav",
@@ -168,8 +168,22 @@ SWEP.InBipodPos = Vector(-8, 0, -4)
 SWEP.InBipodMult = Vector(2, 0, 1)
 
 -- Attachments
-SWEP.DefaultElements = {"muzzle"}
+SWEP.DefaultElements = {"muzzle", "irons"}
 SWEP.AttachmentElements = {
+    ["irons"] = {
+        VMBodygroups = {{ind = 6, bg = 1}}, -- Assuming ind 6 is for iron sights
+        VMElements = {
+            {
+                Model = "models/jajoff/sps/cgiweapons/tc13j/mando_westar35_scope2.mdl",
+                Bone = "DC_15X_Rifle",
+                Scale = Vector(0.5, 0.5, 0.5), -- Adjusted scale for DLT-16
+                Offset = {
+                    pos = Vector(-0.176, -3.6, 1.95),
+                    ang = Angle(0, -90, 0)
+                }
+            }
+        }
+    },
     ["e11_scope"] = {
         VMBodygroups = {{ind = 3, bg = 1}},
     },
@@ -202,21 +216,21 @@ SWEP.AttachmentElements = {
 }
 
 SWEP.Attachments = {
-    -- {
-    --     PrintName = "Optic",
-    --     DefaultAttName = "None",
-    --     Slot = {"optic"},
-    --     Bone = "DC_15X_Rifle",
-    --     InstalledEles = {"e11_scope"},
-    --     WMScale = Vector(0.9, 0.9, 0.9),
-    --     VMScale = Vector(0.9, 0.9, 0.9),
-    --     Offset = {
-    --         vpos = Vector(-0.06, -3, 1.95),
-    --         vang = Angle(0, -90, 0),
-    --     },
-    --     CorrectiveAng = Angle(0, 180, 0),
-    --     CorrectivePos = Vector(0, 0, 0),
-    -- },
+    {
+        PrintName = "Optic",
+        DefaultAttName = "None",
+        Slot = {"optic"},
+        Bone = "DC_15X_Rifle",
+        InstalledEles = {"e11_scope"},
+        WMScale = Vector(0.9, 0.9, 0.9),
+        VMScale = Vector(0.9, 0.9, 0.9),
+        Offset = {
+            vpos = Vector(-0.06, -3, 1.95),
+            vang = Angle(0, -90, 0),
+        },
+        CorrectiveAng = Angle(0, 180, 0),
+        CorrectivePos = Vector(0, 0, 0),
+    },
     -- {
     --     PrintName = "Tactical",
     --     DefaultAttName = "None",

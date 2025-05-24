@@ -162,7 +162,7 @@ SWEP.HolsterAng = Vector(-15, 30, -15)
 SWEP.DefaultElements = {}
 SWEP.AttachmentElements = {
     ["e11_scope"] = {
-        VMBodygroups = {{ind = 2, bg = 1}},
+        VMBodygroups = {{ind = 2, bg = 2}},
     },
     ["e11_laser"] = {
         VMBodygroups = {{ind = 3, bg = 1},},
@@ -181,7 +181,7 @@ SWEP.Attachments = {
         WMScale = Vector(0.8, 0.8, 0.8),
         Bone = "DC15",
         Offset = {
-            vpos = Vector(-0.1, -1.4, 5),
+            vpos = Vector(-0.1, -1.4, -3),
             vang = Angle(90, 0, -90),
         },
         InstalledEles = {"e11_scope"},
