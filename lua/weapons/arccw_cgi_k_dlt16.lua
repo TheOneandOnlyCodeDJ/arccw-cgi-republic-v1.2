@@ -216,21 +216,21 @@ SWEP.AttachmentElements = {
 }
 
 SWEP.Attachments = {
-    {
-        PrintName = "Optic",
-        DefaultAttName = "None",
-        Slot = {"optic"},
-        Bone = "DC_15X_Rifle",
-        InstalledEles = {"e11_scope"},
-        WMScale = Vector(0.9, 0.9, 0.9),
-        VMScale = Vector(0.9, 0.9, 0.9),
-        Offset = {
-            vpos = Vector(-0.06, -3, 1.95),
-            vang = Angle(0, -90, 0),
-        },
-        CorrectiveAng = Angle(0, 180, 0),
-        CorrectivePos = Vector(0, 0, 0),
-    },
+    -- {
+    --     PrintName = "Optic",
+    --     DefaultAttName = "None",
+    --     Slot = {"optic"},
+    --     Bone = "DC_15X_Rifle",
+    --     InstalledEles = {"e11_scope"},
+    --     WMScale = Vector(0.9, 0.9, 0.9),
+    --     VMScale = Vector(0.9, 0.9, 0.9),
+    --     Offset = {
+    --         vpos = Vector(-0.06, -3, 1.95),
+    --         vang = Angle(0, -90, 0),
+    --     },
+    --     CorrectiveAng = Angle(0, 180, 0),
+    --     CorrectivePos = Vector(0, 0, 0),
+    -- },
     -- {
     --     PrintName = "Tactical",
     --     DefaultAttName = "None",
