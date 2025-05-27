@@ -71,16 +71,19 @@ SWEP.Firemodes = {
     -- {
 	-- 	Mode = 2,
     -- },
-    
     {
         Mode = -3,
-        PostBurstDelay = 0.1,
+        PostBurstDelay = 0.35,
         RunawayBurst = true,
         Mult_RPM = 1,
-    }, 
-	{
-		Mode = 0,
-   	}
+    },
+    {
+        Mode = 0,
+    },
+    {
+        Mode = 1,
+        Mult_RPM = 0.3,
+    },
 }
 
 -- local s = "ArcCW_Kraken.OverheatWarn"
