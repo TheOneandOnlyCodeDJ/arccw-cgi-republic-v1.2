@@ -1,11 +1,12 @@
 AddCSLuaFile()
 
 SWEP.Base = "arccw_masita_base"
+SWEP.CanFireUnderwater = true
 SWEP.Spawnable = true
 
 SWEP.Slot = 3
 SWEP.Category = "[ArcCW] CN Republic Weapons"
-SWEP.Credits = "Kraken (Discord: @elbestiamasita)"
+SWEP.Credits = "BuckAU + Kraken"
 SWEP.PrintName = "DC-17m Grenade"
 SWEP.Trivia_Class = "Blaster, Shotgun"
 SWEP.Trivia_Desc = "The DC-17m Interchangeable Weapon System, also known as the DC-17m Repeating Blaster Rifle, or DC-17M ICWS, was a type of repeating blaster rifle used by Republic clone commandos during the Clone Wars. It could change between a repeating blaster rifle and grenade launcher by switching the weapon's barrel module. The weapon was also used by pirates from Hondo Ohnaka's gang."

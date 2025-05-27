@@ -1,6 +1,7 @@
 AddCSLuaFile()
 
 SWEP.Base = "arccw_masita_base"
+SWEP.CanFireUnderwater = true
 SWEP.Spawnable = true
 
 SWEP.Slot = 3
@@ -51,8 +52,8 @@ SWEP.Penetration = 10
 SWEP.DamageType = DMG_BULLET
 SWEP.MuzzleVelocity = 2000
 
-SWEP.AlwaysPhysBullet = true
-SWEP.PhysTracerProfile = 7
+SWEP.AlwaysPhysBullet = false
+SWEP.PhysTracerProfile = 0
 
 SWEP.ChamberSize = 0
 SWEP.Primary.ClipSize = 36
@@ -119,6 +120,11 @@ SWEP.FirstShootSound = "kraken/cgi/dc19/dc19.wav"
 SWEP.ShootSound = "kraken/cgi/dc19/dc19.wav"
 -- SWEP.DistantShootSound = "ArcCW_Kraken.LightCorebass"
 SWEP.ShootSoundSilenced = "kraken/cgi/dc19/dc19.wav"
+
+SWEP.TracerNum = 1
+SWEP.TracerCol = Color(255, 255, 255) -- White
+SWEP.TracerWidth = 1
+SWEP.Tracer = "emg_tracer"
 
 SWEP.NoFlash = nil
 SWEP.MuzzleEffect = false

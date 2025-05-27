@@ -21,8 +21,18 @@ SWEP.IconOverride = "entities/arccw/kraken/cgi/17m_rifle.png"
 SWEP.DefaultBodygroups = "000000000000"
 SWEP.UseHands = true
 SWEP.MirrorVMWM = true
-SWEP.ViewModel = "models/kraken/cgi/v_cgi_dc17m_rifle.mdl"
+SWEP.ViewModel = "models/kraken/cgi/v_cgi_dc15d.mdl"
 SWEP.WorldModel = "models/arccw/kraken/w_e11.mdl"
+
+SWEP.VisualRecoilMult = 0 -- disables viewmodel recoil
+SWEP.VisualRecoilMultSights = 0 -- disables it while ADS
+SWEP.RecoilPunch = 0 -- removes camera viewpunch
+SWEP.RecoilPunchSights = 0 -- removes camera viewpunch in sights
+SWEP.RecoilAutoControl = 1 -- optional, helps keep control with burst/full-auto
+
+SWEP.Sway = 0
+SWEP.SwayDispersion = 0
+SWEP.SwayMultSights = 0
 
 SWEP.ViewModelFOV = 60
 
@@ -65,7 +75,7 @@ SWEP.RecoilSide = 0
 SWEP.RecoilRise = 0
 SWEP.Recoil = 0.1
 
-SWEP.Delay = 60 / 480
+SWEP.Delay = 60 / 280
 SWEP.Num = 1
 SWEP.Firemode = 1
 SWEP.Firemodes = {
@@ -116,12 +126,12 @@ SWEP.ShootSpeedMult = 0.9
 -- Sounds & Muzzleflash
 SWEP.Primary.Ammo = "ar2"
 SWEP.ShootVol = 100
-SWEP.ShootPitch = 100
-SWEP.ShootPitchVariation = 0.2
+SWEP.ShootPitch = 80
+SWEP.ShootPitchVariation = 0.1
 
-SWEP.FirstShootSound = "kraken/cgi/dc17m/normal.mp3"
-SWEP.ShootSound = "kraken/cgi/dc17m/normal.mp3"
--- SWEP.DistantShootSound = "ArcCW_Kraken.StandardCorebass"
+SWEP.FirstShootSound = "kraken/cgi/dc15/dc15sa.wav"
+SWEP.ShootSound = "kraken/cgi/dc15/dc15sa.wav"
+-- SWEP.DistantShootSound = "ArcCW_Kraken.HeavyCorebass"
 SWEP.ShootSoundSilenced = "kraken/cgi/dc19/dc19.wav"
 
 SWEP.NoFlash = nil
@@ -131,14 +141,27 @@ SWEP.GMMuzzleEffect = false
 SWEP.MuzzleFlashColor = Color(0, 0, 250)
 
 -- Ironsight & Holdtype
+
 SWEP.IronSightStruct = {
-    Pos = Vector(-6.526, -7.238, 0.712),
+    Pos = Vector(0.526, 3.238, 1.4),
     Ang = Vector(0, 0, 0),
-     Magnification = 1.5,
+     Magnification = 1.2,
      SwitchToSound = "arccw/kraken/interaction/zoom-in.wav",
      SwitchFromSound = "arccw/kraken/interaction/zoom-out.wav",
-     ViewModelFOV = 55,
+     ViewModelFOV = 65,
 }
+
+
+-- Aim into sights
+-- SWEP.IronSightStruct = {
+--     Pos = Vector(-3.7, -2.138, 1.5),
+--     Ang = Vector(0, 0, -4),
+--      Magnification = 1.2,
+--      SwitchToSound = "arccw/kraken/interaction/zoom-in.wav",
+--      SwitchFromSound = "arccw/kraken/interaction/zoom-out.wav",
+--      ViewModelFOV = 55,
+-- }
+
 
 SWEP.HoldtypeHolstered = "passive"
 SWEP.HoldtypeActive = "ar2"
@@ -160,77 +183,77 @@ SWEP.HolsterPos = Vector(4, -3, 2)
 SWEP.HolsterAng = Vector(-15, 30, -15)
 
 -- Attachments 
--- SWEP.Attachments = {
---     {
---         PrintName = "Optic", 
---         DefaultAttName = "None", 
---         Slot = "optic",
---         Bone = "DC-17M",
---         Offset = {
---             vpos = Vector(0.06, -2.8, -1.6),
---             vang = Angle(0, 90, 180),
---         },
---         CorrectiveAng = Angle(0, 180, 0),
---         CorrectivePos = Vector(0, 0, 0)
---     }, 
---     {
---         PrintName = "Internal Compression",
---         DefaultAttName = "DC-17m Standard",
---         Slot = {"muzzle", "dlt19_muzzle", "dc15a_muzzle", "cr2_muzzle", "cr2c_muzzle", "stealth_muzzle", "b1120_muzzle"},
---     },      
---     {
---         PrintName = "Tactical",
---         DefaultAttName = "None",
---         Slot = {"tactical", "tac_pistol", "tac"},
---         VMScale = Vector(0.8, 0.8, 0.8),
---         Bone = "DC-17M", 
---         Offset = {
---             vpos = Vector(1.7, -13, 0.1),
---             vang = Angle(0, 90, -90),
---         },
---     },   
---     {
---         PrintName = "Mode",
---         DefaultAttName = "None",
---         Slot = {"sw_mode", "sw_mode_rifle"},
---     },   
---     {
---         PrintName = "Energization",
---         DefaultAttName = "Standard",
---         Slot = {"ammo"},
---     },
---     {
---         PrintName = "Perk",
---         DefaultAttName = "None",
---         Slot = "perk",
---     },
---     {
---         PrintName = "Internal Modifications",
---         DefaultAttName = "None",
---         Slot = "uc_fg",
---     },
---     {
---         PrintName = "Charm",
---         DefaultAttName = "None",
---         Slot = {"charm"},
---         Bone = "DC-17M",
---         VMScale = Vector(0.7, 0.7, 0.7),
---         Offset = {
---             vpos = Vector(1.3, -1, -0.2),
---             vang = Angle(0, 90, 200),
---         },
---     },     
---     {
---         PrintName = "Killcounter",
---         DefaultAttName = "None",
---         Slot = {"killcounter"},
---         Bone = "DC-17M",
---         Offset = {
---             vpos = Vector(1.45, -3.7, -0.2),
---             vang = Angle(0, 90, 200),
---         },
---     },      
--- }
+SWEP.Attachments = {
+    {
+        PrintName = "Optic", 
+        DefaultAttName = "None", 
+        Slot = "optic",
+        Bone = "DC-17M",
+        Offset = {
+            vpos = Vector(0, 0, 0),
+            vang = Angle(0, 90, 180),
+        },
+        CorrectiveAng = Angle(0, 180, 0),
+        CorrectivePos = Vector(0, 0, 0)
+    }, 
+    {
+        PrintName = "Internal Compression",
+        DefaultAttName = "DC-17m Standard",
+        Slot = {"muzzle", "dlt19_muzzle", "dc15a_muzzle", "cr2_muzzle", "cr2c_muzzle", "stealth_muzzle", "b1120_muzzle"},
+    },      
+    {
+        PrintName = "Tactical",
+        DefaultAttName = "None",
+        Slot = {"tactical", "tac_pistol", "tac"},
+        VMScale = Vector(0.8, 0.8, 0.8),
+        Bone = "DC-17M", 
+        Offset = {
+            vpos = Vector(1.7, -13, 0.1),
+            vang = Angle(0, 90, -90),
+        },
+    },   
+    {
+        PrintName = "Mode",
+        DefaultAttName = "None",
+        Slot = {"sw_mode", "sw_mode_rifle"},
+    },   
+    {
+        PrintName = "Energization",
+        DefaultAttName = "Standard",
+        Slot = {"ammo"},
+    },
+    {
+        PrintName = "Perk",
+        DefaultAttName = "None",
+        Slot = "perk",
+    },
+    {
+        PrintName = "Internal Modifications",
+        DefaultAttName = "None",
+        Slot = "uc_fg",
+    },
+    {
+        PrintName = "Charm",
+        DefaultAttName = "None",
+        Slot = {"charm"},
+        Bone = "DC-17M",
+        VMScale = Vector(0.7, 0.7, 0.7),
+        Offset = {
+            vpos = Vector(1.3, -1, -0.2),
+            vang = Angle(0, 90, 200),
+        },
+    },     
+    {
+        PrintName = "Killcounter",
+        DefaultAttName = "None",
+        Slot = {"killcounter"},
+        Bone = "DC-17M",
+        Offset = {
+            vpos = Vector(1.45, -3.7, -0.2),
+            vang = Angle(0, 90, 200),
+        },
+    },      
+}
 
 -- Don't touch this unless you know what you're doing
 SWEP.Animations = {
@@ -274,8 +297,9 @@ SWEP.Animations = {
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         SoundTable = {
             {s = "weapon_hand/reload_heavy/mag_eject/023d-00000080.mp3", t = 10 / 60},
-            {s = "weapon_hand/reload_gentle/mag_load/023d-00000648.mp3", t = 90 / 60},
-            {s = "weapon_hand/reload_gentle/mag_load/023d-00000668.mp3", t = 110 / 60},
+            {s = "weapon_hand/reload_gentle/mag_load/023d-00000648.mp3", t = 70 / 60},
+            {s = "weapon_hand/reload_gentle/mag_load/023d-00000668.mp3", t = 95 / 60},
+            
         },
     },
 }
