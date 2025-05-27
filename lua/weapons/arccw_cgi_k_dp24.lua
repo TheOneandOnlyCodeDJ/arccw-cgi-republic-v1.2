@@ -77,7 +77,7 @@ SWEP.Firemodes = {
         RunawayBurst = true,
         Mult_RPM = 1,
     },
-	{
+    {
 		Mode = 0,
     },
     {
