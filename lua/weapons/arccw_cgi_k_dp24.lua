@@ -71,7 +71,6 @@ SWEP.Firemodes = {
     -- {
 	-- 	Mode = 2,
     -- },
-    
     {
         Mode = -3,
         PostBurstDelay = 0.1,
@@ -80,6 +79,10 @@ SWEP.Firemodes = {
     }, 
 	{
 		Mode = 0,
+   	},
+    {
+		Mode = 1,
+        Mult_RPM = 0.3,
    	}
 }
 
