@@ -8,14 +8,14 @@ SWEP.Slot = 2
 
 SWEP.Category = "[ArcCW] CN Republic Weapons"
 SWEP.Credits = "Kraken (Discord: @elbestiamasita)"
-SWEP.PrintName = "DC-17m Rifle"
+SWEP.PrintName = "DC-15d Blaster Rifle"
 SWEP.Trivia_Class = "Blaster, Rifle"
-SWEP.Trivia_Desc = "The DC-17m Interchangeable Weapon System, also known as the DC-17m Repeating Blaster Rifle, or DC-17M ICWS, was a type of repeating blaster rifle used by Republic clone commandos during the Clone Wars. It could change between a repeating blaster rifle and grenade launcher by switching the weapon's barrel module. The weapon was also used by pirates from Hondo Ohnaka's gang."
+SWEP.Trivia_Desc = "The DC-15D Interchangeable Weapon System, also known as the DC-15D Repeating Blaster Rifle, was a type of repeating blaster rifle used by Republic ARC Troopers during the Clone Wars. It could change between a repeating blaster rifle and grenade launcher by switching the weapon's barrel module."
 SWEP.Trivia_Manufacturer = "BlastTech Industries"
 SWEP.Trivia_Calibre = "Laser Bolt"
 SWEP.Trivia_Mechanism = "Condensed Tibanna-Gas"
 SWEP.Trivia_Country = "Galactic Republic"
-SWEP.IconOverride = "entities/arccw/kraken/cgi/17m_rifle.png"
+SWEP.IconOverride = "materials/entities/arccw/kraken/republic-arsenal/grenade_launcher_icon.png"
 
 -- Viewmodel & Entity Properties
 SWEP.DefaultBodygroups = "000000000000"

@@ -14,7 +14,7 @@ SWEP.Trivia_Manufacturer = "BlastTech Industries"
 SWEP.Trivia_Calibre = "Laser Bolt"
 SWEP.Trivia_Mechanism = "Condensed Tibanna-Gas"
 SWEP.Trivia_Country = "Galactic Republic"
-SWEP.IconOverride = "materials/entities/dc15d_grenade_launcher.png"
+SWEP.IconOverride = "materials/entities/arccw/kraken/republic-arsenal/grenade_launcher_icon.png
 
 -- Viewmodel & Entity Properties
 SWEP.DefaultBodygroups = "000000000"
@@ -110,8 +110,8 @@ SWEP.Primary.Ammo = "RPG_Round"
 SWEP.ShootVol = 120
 SWEP.ShootPitch = 120
 SWEP.ShootPitchVariation = 0.2
-SWEP.FirstShootSound = "/arccw/rep_ubgl/gl_fire.ogg"
-SWEP.ShootSound = "/arccw/rep_ubgl/gl_fire.ogg"
+SWEP.FirstShootSound = "arccw/kraken/republic/gl_fire.ogg"
+SWEP.ShootSound = "arccw/kraken/republic/gl_fire.ogg"
 
 -- SWEP.DistantShootSound = "ArcCW_Kraken.HeavyCorebass"
 
