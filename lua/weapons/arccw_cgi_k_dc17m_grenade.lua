@@ -110,8 +110,8 @@ SWEP.Primary.Ammo = "RPG_Round"
 SWEP.ShootVol = 120
 SWEP.ShootPitch = 95
 SWEP.ShootPitchVariation = 0.2
-SWEP.FirstShootSound = "/arccw/rep_ubgl/gl_fire.ogg"
-SWEP.ShootSound = "/arccw/rep_ubgl/gl_fire.ogg"
+SWEP.FirstShootSound = "arccw/kraken/republic/gl_fire.ogg"
+SWEP.ShootSound = "arccw/kraken/republic/gl_fire.ogg"
 
 -- SWEP.DistantShootSound = "ArcCW_Kraken.HeavyCorebass"
 
