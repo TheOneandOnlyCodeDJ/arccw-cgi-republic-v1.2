@@ -45,9 +45,9 @@ SWEP.BodyDamageMults = {
 }
 
 SWEP.Damage = 15 * 8
-SWEP.DamageMin = 14
+SWEP.DamageMin = 4 * 8
 SWEP.RangeMin = 0
-SWEP.Range = 40
+SWEP.Range = 80
 SWEP.Penetration = 8
 SWEP.DamageType = DMG_BULLET
 SWEP.MuzzleVelocity = 2000
