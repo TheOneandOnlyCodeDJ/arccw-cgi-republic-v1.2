@@ -46,7 +46,7 @@ SWEP.BodyDamageMults = {
 }
 
 SWEP.Damage = 75
-SWEP.DamageMin = 23
+SWEP.DamageMin = 45
 SWEP.RangeMin = 0
 SWEP.Range = 350
 SWEP.Penetration = 10
