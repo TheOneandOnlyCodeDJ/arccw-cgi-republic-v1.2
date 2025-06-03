@@ -1,6 +1,7 @@
 AddCSLuaFile()
 
 SWEP.Base = "arccw_masita_base"
+SWEP.CanFireUnderwater = true
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 SWEP.Slot = 3
