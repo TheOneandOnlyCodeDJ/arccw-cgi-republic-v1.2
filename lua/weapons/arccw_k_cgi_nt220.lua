@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = "arccw_masita_base"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
-SWEP.Slot = 3 
+SWEP.Slot = 3
 
 -- Trivia
 SWEP.Category = "[ArcCW] Kraken's CGI Galactic pack"
