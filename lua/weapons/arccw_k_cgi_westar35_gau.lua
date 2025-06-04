@@ -77,13 +77,6 @@ SWEP.Firemodes = {
     {
 		Mode = 2,
     },
-    {
-		Mode = 1,
-        Mult_AmmoPerShot = 10,
-        Mult_RPM = 0.5,
-        Mult_Damage = 5,
-        Mult_DamageMin = 5,
-    },
 	{
 		Mode = 0,
     }
