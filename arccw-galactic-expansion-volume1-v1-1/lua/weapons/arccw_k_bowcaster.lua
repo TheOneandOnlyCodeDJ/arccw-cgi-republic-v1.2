@@ -2,9 +2,9 @@ AddCSLuaFile()
 
 SWEP.Base = "arccw_masita_base"
 SWEP.Spawnable = true
-SWEP.AdminOnly = false
+SWEP.CanFireUnderwater = true
 
-SWEP.Slot = 3 
+SWEP.Slot = 3
 
 -- Trivia
 SWEP.Category = "[ArcCW] Kraken's Galactic Expansion - Vol. I"
@@ -33,14 +33,6 @@ SWEP.WorldModelOffset = {
 }
 
 -- Damage & Tracer
-SWEP.Jamming = true
-SWEP.HeatGain = 1
-SWEP.HeatCapacity = 13
-SWEP.HeatDissipation = 7
-SWEP.HeatLockout = true
-SWEP.HeatFix = true
-SWEP.HeatDelayTime = 0.5
-
 SWEP.BodyDamageMults = {
     [HITGROUP_HEAD] = 2.5,
     [HITGROUP_CHEST] = 1.25,
@@ -51,8 +43,8 @@ SWEP.BodyDamageMults = {
     [HITGROUP_RIGHTLEG] = 0.75,
 }
 
-SWEP.Damage = 45
-SWEP.DamageMin = 29
+SWEP.Damage = 90
+SWEP.DamageMin = 60
 SWEP.RangeMin = 0
 SWEP.Range = 350
 SWEP.Penetration = 8
@@ -67,13 +59,13 @@ SWEP.HullSize = 1
 
 SWEP.AmmoPerShot = 1
 SWEP.ChamberSize = 0
-SWEP.Primary.ClipSize = 20
+SWEP.Primary.ClipSize = 21
 
 SWEP.Recoil = 0.7
 SWEP.RecoilSide = 0.4
 SWEP.RecoilRise = 0.6
 
-SWEP.Delay = 60 / 400
+SWEP.Delay = 60 / 200
 SWEP.Num = 1
 SWEP.Firemode = 1
 SWEP.Firemodes = {
@@ -83,13 +75,14 @@ SWEP.Firemodes = {
     {
         Mode = -3,
         Mult_RPM = 3,
-        PostBurstDelay = 0.1,
+        PostBurstDelay = 0.5,
+        RunawayBurst = true,
     },
 	{
 		Mode = 0,
-   	}
+    }
 }
-
+--[[
 local s = "ArcCW_Kraken.OverheatWarn"
 local p = {
     [5] = 70,
@@ -105,10 +98,10 @@ SWEP.Hook_AddShootSound = function(wep, data)
         wep:MyEmitSound(s, 100, pitch, 0.5, CHAN_AUTO)
     end
 end
-
+]]
 SWEP.AccuracyMOA = 0
 SWEP.HipDispersion = 150
-SWEP.MoveDispersion = 150 
+SWEP.MoveDispersion = 150
 SWEP.JumpDispersion = 200
 
 -- Speed Mult
@@ -125,7 +118,7 @@ SWEP.ShootPitchVariation = 0.2
 
 SWEP.FirstShootSound = "ArcCW_Kraken.SW_BOWCASTER"
 SWEP.ShootSound = "ArcCW_Kraken.SW_BOWCASTER"
-SWEP.DistantShootSound = "ArcCW_Kraken.HeavyCorebass"
+-- SWEP.DistantShootSound = "ArcCW_Kraken.HeavyCorebass"
 SWEP.ShootSoundSilenced = "ArcCW_Kraken.RifleSupp"
 
 SWEP.NoFlash = nil
@@ -181,25 +174,26 @@ SWEP.AttachmentElements = {
                },
                IsMuzzleDevice = true,
            }
-        }, 
+        },
     },
 }
 
-SWEP.Attachments = {     
+SWEP.Attachments = {
     {
-        PrintName = "Optics", 
+        PrintName = "Optics",
         DefaultAttName = "Iron Sight",
         Slot = "optic",
         Bone = "E11S_CONTR",
         VMScale = Vector(0.7, 0.7, 0.7),
         WMScale = Vector(0.7, 0.7, 0.7),
         Offset = {
-            vpos = Vector(0.14, -3, 1.8),
+            vpos = Vector(0.2, -3, 1.8),
             vang = Angle(0, -90, 0),
         },
         CorrectiveAng = Angle(0, 180, 0),
-        CorrectivePos = Vector(0, 0, -0.01),
+        CorrectivePos = Vector(2, 0, 0),
     },
+    --[[
     {
         PrintName = "Tactical",
         DefaultAttName = "None",
@@ -263,6 +257,7 @@ SWEP.Attachments = {
             vang = Angle(0, -90, 0),
         },
     },   
+    ]]
 }
 -- Don't touch this unless you know what you're doing
 SWEP.Animations = {
