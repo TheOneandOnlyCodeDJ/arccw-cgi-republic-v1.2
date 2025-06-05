@@ -2,9 +2,10 @@ AddCSLuaFile()
 
 SWEP.Base = "arccw_masita_base"
 SWEP.Spawnable = true
+SWEP.CanFireUnderwater = true
 SWEP.AdminOnly = false
 
-SWEP.Slot = 3 
+SWEP.Slot = 3
 
 -- Trivia
 SWEP.Category = "[ArcCW] Kraken's Galactic Expansion - Vol. I"
@@ -34,13 +35,6 @@ SWEP.WorldModelOffset = {
 }
 
 -- Damage & Tracer
-SWEP.Jamming = true
-SWEP.HeatGain = 1
-SWEP.HeatCapacity = 25
-SWEP.HeatDissipation = 5
-SWEP.HeatLockout = true
-SWEP.HeatDelayTime = 0.5
-
 SWEP.BodyDamageMults = {
     [HITGROUP_HEAD] = 2,
     [HITGROUP_CHEST] = 1.25,
@@ -51,7 +45,7 @@ SWEP.BodyDamageMults = {
     [HITGROUP_RIGHTLEG] = 0.75,
 }
 
-SWEP.Damage = 34
+SWEP.Damage = 50
 SWEP.DamageMin = 20
 SWEP.RangeMin = 0
 SWEP.Range = 650
@@ -60,38 +54,33 @@ SWEP.DamageType = DMG_BULLET
 SWEP.MuzzleVelocity = 9000
 
 SWEP.TraceNum = 1
-SWEP.Tracer = "tracer_red"
+SWEP.Tracer = "tracer_blue"
 SWEP.TracerCol = Color(250, 0, 0)
 
 SWEP.AmmoPerShot = 1
 SWEP.ChamberSize = 0
 SWEP.Primary.ClipSize = 34
 
-SWEP.Recoil = 0.86
-SWEP.RecoilSide = 0.35
-SWEP.RecoilRise = 0.75
-SWEP.RecoilPunch = 0.8
+SWEP.Recoil = 0.2
+SWEP.RecoilSide = 0.03
+SWEP.RecoilRise = 0.2
 
-SWEP.Delay = 60 / 550
+SWEP.Delay = 60 / 300
 SWEP.Num = 1
 SWEP.Firemode = 1
 SWEP.Firemodes = {
     {
-		Mode = 1,
-        PostBurstDelay = 0.1,
-    },
-    {
 		Mode = 2,
-        PostBurstDelay = 0.1,
     },
     {
+        Mode = -3,
         Mult_RPM = 2,
-		Mode = -3,
-        PostBurstDelay = 0.1,
+		RunawayBurst = 1,
+        PostBurstDelay = 0.25,
     },
 	{
 		Mode = 0,
-   	}
+    }
 }
 
 SWEP.AccuracyMOA = 0
@@ -110,7 +99,7 @@ SWEP.Primary.Ammo = "ar2"
 SWEP.ShootVol = 125
 SWEP.ShootPitch = 100
 SWEP.ShootPitchVariation = 0.05
-
+--[[
 local s = "ArcCW_Kraken.OverheatWarn"
 local p = {
     [5] = 70,
@@ -126,24 +115,24 @@ SWEP.Hook_AddShootSound = function(wep, data)
         wep:MyEmitSound(s, 100, pitch, 0.5, CHAN_AUTO)
     end
 end
-
+]]
 SWEP.FirstShootSound = "ArcCW_Kraken.SW_A280"
 SWEP.ShootSound = "ArcCW_Kraken.SW_A280"
-SWEP.DistantShootSound = "ArcCW_Kraken.StandardCorebass"
+-- SWEP.DistantShootSound = "ArcCW_Kraken.StandardCorebass"
 SWEP.ShootSoundSilenced = "ArcCW_Kraken.RifleSupp"
 
 SWEP.MuzzleFlashColor = Color(250, 0, 0)
-SWEP.MuzzleEffect = "blaster_muzzle_red"
+SWEP.MuzzleEffect = "blaster_muzzle_blue"
 SWEP.GMMuzzleEffect = false
 
 -- Ironsight & Holdtype
 SWEP.IronSightStruct = {
     Pos = Vector(-2.373, -3, 0),
     Ang = Vector(0, 0.1, -3),
-     Magnification = 1.5,
-     SwitchToSound = "weapon_hand/ads/0242-00001a46.mp3",
-     SwitchFromSound = "weapon_hand/ads/0242-00001a43.mp3",
-     ViewModelFOV = 55,
+    Magnification = 1.5,
+    SwitchToSound = "weapon_hand/ads/0242-00001a46.mp3",
+    SwitchFromSound = "weapon_hand/ads/0242-00001a43.mp3",
+    ViewModelFOV = 55,
 }
 
 -- Holdtype
@@ -186,13 +175,13 @@ SWEP.AttachmentElements = {
 
 SWEP.Attachments = {     
     {
-        PrintName = "Optics", 
-        DefaultAttName = "None",
+        PrintName = "Sight", 
+        DefaultAttName = "none", 
         Slot = "optic",
         Bone = "tag_attachments",
         VMScale = Vector(0.9, 0.9, 0.9),
         WMScale = Vector(0.9, 0.9, 0.9),
-        InstalledEles = {"optic_attach"},
+        InstalledEles = {"optic_a280"},
         Offset = {
             vpos = Vector(8.5, -0, 2),
             vang = Angle(0, 0, 0),
@@ -200,78 +189,78 @@ SWEP.Attachments = {
         CorrectivePos = Vector(0, 0, 0),
         CorrectiveAng = Angle(0, 0, 0)
     },
-    {
-        PrintName = "Muzzle",
-        DefaultAttName = "None",
-        Slot = {"muzzle", "stealth_muzzle"},
-        VMScale = Vector(1.2, 1.2, 1.2),
-        WMScale = Vector(1.2, 1.2, 1.2),
-        Bone = "tag_attachments",
-        Offset = {
-            vpos = Vector(26, -0.1, 0.25),
-            vang = Angle(0, 0, 0),
-        },
-    },
-    {
-        PrintName = "Tactical",
-        DefaultAttName = "None",
-        Slot = {"tactical", "tac_pistol", "tac"},
-        InstalledEles = {"laser_attach"},
-        VMScale = Vector(0.6, 0.6, 0.6),
-        WMScale = Vector(0.6, 0.6, 0.6),
-        Bone = "tag_attachments",
-        Offset = {
-            vpos = Vector(13.5, 0.6, 0.5),
-            vang = Angle(0, 0, -90),
-        },
-    },  
-    {
-        PrintName = "Underbarrel",
-        DefaultAttName = "A-280 Foregrip",
-        Slot = {"foregrip"},
-        VMScale = Vector(0.8, 0.8, 0.8),
-        WMScale = Vector(0.8, 0.8, 0.8),
-        InstalledEles = {"foregrip_attach"},
-        Bone = "tag_attachments",
-        Offset = {
-            vpos = Vector(13.4, 0.1, -0.3),
-            vang = Angle(0, 0, 0),
-        },
-    },  
-    {
-        PrintName = "Perk",
-        DefaultAttName = "None",
-        Slot = "perk",
-    },
-    {
-        PrintName = "Internal Modifications",
-        DefaultAttName = "None",
-        Slot = {"uc_fg"},
-    },    
-    {
-        PrintName = "Charm",
-        DefaultAttName = "None",
-        Slot = "charm",
-        VMScale = Vector(0.5, 0.5, 0.5),
-        WMScale = Vector(0.5, 0.5, 0.5),
-        Bone = "tag_attachments",
-        Offset = {
-            vpos = Vector(5.55, -1.0, -1.34),
-            vang = Angle(0, 0, 0),
-        },
-    },    
-    {
-        PrintName = "Killcounter",
-        DefaultAttName = "None",
-        Slot = "killcounter",
-        VMScale = Vector(0.8, 0.8, 0.8),
-        WMScale = Vector(0.8, 0.8, 0.8),
-        Bone = "tag_attachments",
-        Offset = {
-            vpos = Vector(2.5, -0.5, 0.09),
-            vang = Angle(0, 0, 0),
-        },
-    },
+    --{
+      --  PrintName = "Muzzle",
+       -- DefaultAttName = "None",
+       -- Slot = {"muzzle", "stealth_muzzle"},
+        --VMScale = Vector(1.2, 1.2, 1.2),
+       -- WMScale = Vector(1.2, 1.2, 1.2),
+       -- Bone = "tag_attachments",
+       -- Offset = {
+        --    vpos = Vector(26, -0.1, 0.25),
+  --  vang = Angle(0, 0, 0),
+      --  },
+  --  },
+  --  {
+   --     PrintName = "Tactical",
+   --     DefaultAttName = "None",
+   --     Slot = {"tactical", "tac_pistol", "tac"},
+   --     InstalledEles = {"laser_attach"},
+   --     VMScale = Vector(0.6, 0.6, 0.6),
+   --     WMScale = Vector(0.6, 0.6, 0.6),
+   --     Bone = "tag_attachments",
+   --     Offset = {
+   --         vpos = Vector(13.5, 0.6, 0.5),
+   --         vang = Angle(0, 0, -90),
+   --     },
+   -- },  
+   -- {
+   --     PrintName = "Underbarrel",
+   --     DefaultAttName = "A-280 Foregrip",
+   --     Slot = {"foregrip"},
+   --     VMScale = Vector(0.8, 0.8, 0.8),
+   --     WMScale = Vector(0.8, 0.8, 0.8),
+   --     InstalledEles = {"foregrip_attach"},
+   --     Bone = "tag_attachments",
+   --     Offset = {
+   --         vpos = Vector(13.4, 0.1, -0.3),
+   --         vang = Angle(0, 0, 0),
+    --    },
+  --  },  
+  --  {
+    --    PrintName = "Perk",
+    --    DefaultAttName = "None",
+    --    Slot = "perk",
+   -- },
+   -- {
+     --   PrintName = "Internal Modifications",
+     --   DefaultAttName = "None",
+     --   Slot = {"uc_fg"},
+   -- },    
+   -- {
+     --   PrintName = "Charm",
+     --   DefaultAttName = "None",
+     --   Slot = "charm",
+     --   VMScale = Vector(0.5, 0.5, 0.5),
+     --   WMScale = Vector(0.5, 0.5, 0.5),
+     --   Bone = "tag_attachments",
+     --   Offset = {
+     --       vpos = Vector(5.55, -1.0, -1.34),
+     --       vang = Angle(0, 0, 0),
+     --   },
+   -- },    
+   -- {
+     --   PrintName = "Killcounter",
+     --   DefaultAttName = "None",
+     --   Slot = "killcounter",
+     --   VMScale = Vector(0.8, 0.8, 0.8),
+     --   WMScale = Vector(0.8, 0.8, 0.8),
+     --   Bone = "tag_attachments",
+     --   Offset = {
+       --     vpos = Vector(2.5, -0.5, 0.09),
+        --    vang = Angle(0, 0, 0),
+       -- },
+   -- },
 }
 
 -- Don't touch this unless you know what you're doing
