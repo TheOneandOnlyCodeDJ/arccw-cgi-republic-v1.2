@@ -1,6 +1,7 @@
 AddCSLuaFile()
 
 SWEP.Base = "arccw_base_melee"
+SWEP.CanFireUnderwater = true
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 

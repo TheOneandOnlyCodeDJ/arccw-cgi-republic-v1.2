@@ -44,10 +44,10 @@ SWEP.BodyDamageMults = {
     [HITGROUP_RIGHTLEG] = 0.75,
 }
 
-SWEP.Damage = 15 * 8
-SWEP.DamageMin = 14
+SWEP.Damage = 20 * 4
+SWEP.DamageMin = 6 * 4
 SWEP.RangeMin = 0
-SWEP.Range = 40
+SWEP.Range = 80
 SWEP.Penetration = 8
 SWEP.DamageType = DMG_BULLET
 SWEP.MuzzleVelocity = 2000
@@ -80,7 +80,7 @@ SWEP.Firemodes = {
     -- },
 	{
 		Mode = 0,
-   	}
+    }
 }
 
 local s = "ArcCW_Kraken.OverheatWarn"
@@ -99,7 +99,7 @@ local s = "ArcCW_Kraken.OverheatWarn"
 --     end
 -- end
 
-SWEP.AccuracyMOA = 20
+SWEP.AccuracyMOA = 25
 SWEP.HipDispersion = 300
 SWEP.MoveDispersion = 100
 SWEP.JumpDispersion = 500

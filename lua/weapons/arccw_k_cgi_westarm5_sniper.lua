@@ -1,10 +1,11 @@
 AddCSLuaFile()
 
 SWEP.Base = "arccw_masita_base"
+SWEP.CanFireUnderwater = true
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 
-SWEP.Slot = 3 
+SWEP.Slot = 3
 
 -- Trivia
 SWEP.Category = "[ArcCW] Kraken's CGI Galactic pack"
@@ -47,7 +48,7 @@ SWEP.Damage = 200
 SWEP.DamageMin = 180
 SWEP.RangeMin = 0
 SWEP.Range = 600
-SWEP.Penetration = 8
+SWEP.Penetration = 10
 SWEP.DamageType = DMG_BULLET
 SWEP.MuzzleVelocity = 2000
 
@@ -60,9 +61,9 @@ SWEP.HullSize = 1
 SWEP.ChamberSize = 0
 SWEP.Primary.ClipSize = 16
 
-SWEP.RecoilSide = 0.5
-SWEP.RecoilRise = 0.5
-SWEP.Recoil = 0.5
+SWEP.RecoilSide = 0.2
+SWEP.RecoilRise = 0.2
+SWEP.Recoil = 0.2
 
 SWEP.Delay = 60 / 120
 SWEP.Num = 1
@@ -73,9 +74,9 @@ SWEP.Firemodes = {
     },
     {
 		Mode = -2,
-        Mult_RPM = 2,
-        Mult_Recoil = 0.7,
-        PostBurstDelay = 0.35,
+        Mult_RPM = 5,
+        PostBurstDelay = 0.8,
+        Mult_Recoil = 5,
         RunawayBurst = true,
     },
 	{
@@ -282,7 +283,7 @@ SWEP.Animations = {
         Source = false,
     },
 	["fire"] = {
-        Source = "fire",
+        Source = {"shoot"},
     },
     ["fire_iron"] = {
         Source = false,

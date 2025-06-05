@@ -44,7 +44,7 @@ SWEP.BodyDamageMults = {
     [HITGROUP_RIGHTLEG] = 0.75,
 }
 
-SWEP.Damage = 38
+SWEP.Damage = 42
 SWEP.DamageMin = 38
 SWEP.RangeMin = 0
 SWEP.Range = 900
@@ -59,7 +59,7 @@ SWEP.Tracer = "tracer_yellow"
 SWEP.HullSize = 1
 
 SWEP.ChamberSize = 0
-SWEP.Primary.ClipSize = 20
+SWEP.Primary.ClipSize = 25
 
 SWEP.RecoilSide = 0.05
 SWEP.RecoilRise = 0.1
@@ -83,7 +83,7 @@ SWEP.Firemodes = {
     },
 	{
 		Mode = 0,
-   	}
+    }
 }
 
 -- local s = "ArcCW_Kraken.OverheatWarn"

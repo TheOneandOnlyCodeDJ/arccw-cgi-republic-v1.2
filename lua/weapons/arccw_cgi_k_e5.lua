@@ -44,7 +44,7 @@ SWEP.BodyDamageMults = {
     [HITGROUP_RIGHTLEG] = 0.75,
 }
 
-SWEP.Damage = 26
+SWEP.Damage = 28
 SWEP.DamageMin = 23
 SWEP.RangeMin = 0
 SWEP.Range = 300
@@ -83,7 +83,7 @@ SWEP.Firemodes = {
     },
 	{
 		Mode = 0,
-   	}
+    }
 }
 
 -- local s = "ArcCW_Kraken.OverheatWarn"

@@ -1,6 +1,7 @@
 AddCSLuaFile()
 
 SWEP.Base = "arccw_masita_base"
+SWEP.CanFireUnderwater = true
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 
@@ -45,8 +46,8 @@ SWEP.BodyDamageMults = {
     [HITGROUP_RIGHTLEG] = 0.75,
 }
 
-SWEP.Damage = 75
-SWEP.DamageMin = 23
+SWEP.Damage = 70
+SWEP.DamageMin = 45
 SWEP.RangeMin = 0
 SWEP.Range = 350
 SWEP.Penetration = 10
@@ -74,9 +75,6 @@ SWEP.Delay = 60 / 200
 SWEP.Num = 1
 SWEP.Firemode = -3
 SWEP.Firemodes = {
-    -- {
-	-- 	Mode = 2,
-    -- },
     {
         Mode = -3,
         PostBurstDelay = 0.5,

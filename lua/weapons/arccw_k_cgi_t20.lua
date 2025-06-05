@@ -1,6 +1,7 @@
 AddCSLuaFile()
 
 SWEP.Base = "arccw_masita_base"
+SWEP.CanFireUnderwater = true
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 
@@ -69,7 +70,7 @@ SWEP.RecoilVMShake = 1
 SWEP.ChamberSize = 0
 SWEP.Primary.ClipSize = 60
 
-SWEP.Delay = 60 / 450
+SWEP.Delay = 60 / 400
 SWEP.Num = 1
 SWEP.Firemode = 2
 SWEP.Firemodes = {
