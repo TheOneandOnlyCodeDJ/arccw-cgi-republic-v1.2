@@ -14,7 +14,7 @@ SWEP.Trivia_Manufacturer = "BlastTech Industries"
 SWEP.Trivia_Calibre = "Laser Bolt"
 SWEP.Trivia_Mechanism = "Condensed Tibanna-Gas"
 SWEP.Trivia_Country = "Galactic Republic"
-SWEP.IconOverride = "materials/entities/arccw/kraken/republic-arsenal/dc15d.png"
+SWEP.IconOverride = "materials/entities/arccw/kraken/republic-arsenal/dc15d_grenade_launcher.png"
 
 -- Viewmodel & Entity Properties
 SWEP.DefaultBodygroups = "000000000"
