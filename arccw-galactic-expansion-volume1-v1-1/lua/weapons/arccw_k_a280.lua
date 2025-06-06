@@ -67,7 +67,7 @@ SWEP.RecoilRise = 0.2
 
 SWEP.Delay = 60 / 300
 SWEP.Num = 1
-SWEP.Firemode = 1
+SWEP.Firemode = 2
 SWEP.Firemodes = {
     {
 		Mode = 2,
@@ -181,9 +181,9 @@ SWEP.Attachments = {
         Bone = "tag_attachments",
         VMScale = Vector(0.9, 0.9, 0.9),
         WMScale = Vector(0.9, 0.9, 0.9),
-        InstalledEles = {"optic_a280"},
+        InstalledEles = {"optic_attach"},
         Offset = {
-            vpos = Vector(8.5, -0, 2),
+            vpos = Vector(9, 0, 1.8),
             vang = Angle(0, 0, 0),
         },
         CorrectivePos = Vector(0, 0, 0),
@@ -268,7 +268,7 @@ local path = "arccw/kraken/sw_galactic/weapons/a280/handling_2/"
 
 SWEP.Animations = {
     ["fire"] = {
-        Source = "shoot1",
+        Source = false,
     },
     ["reload"] = {
         Source = "reload_short",
@@ -344,17 +344,6 @@ SWEP.Animations = {
     ["enter_sprint"] = {
         Source = "sprint_in",
         Time = 1.25,
-    },
-    ["exit_inspect"] = {
-        Source = "lookat01",
-		MinProgress = 0.9,
-        SoundTable = {
-            {s = path .. "wfoly_ar_falima_inspect_01.ogg", t = 0},
-			{s = path .. "wfoly_ar_falima_inspect_02.ogg", t = 1.3},
-			{s = path .. "wfoly_ar_falima_inspect_03.ogg", t = 2.36},
-			{s = path .. "wfoly_ar_falima_inspect_04.ogg", t = 3.6},
-			{s = path .. "wfoly_ar_falima_inspect_05.ogg", t = 4.1},
-        },
     },
     ["bash"] = {
         Source = {"melee","melee2","melee3"},
