@@ -83,7 +83,7 @@ SWEP.Firemodes = {
     }
 }
 
-local s = "ArcCW_Kraken.OverheatWarn"
+-- local s = "ArcCW_Kraken.OverheatWarn"
 -- local p = {
 --     [5] = 70,
 --     [4] = 70,

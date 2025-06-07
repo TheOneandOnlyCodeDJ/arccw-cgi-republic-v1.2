@@ -34,11 +34,11 @@ SWEP.WorldModelOffset = {
 }
 
 -- Damage and things
-SWEP.Damage = 325
+SWEP.Damage = 355
 SWEP.DamageMin = 300
 SWEP.RangeMin = 0
 SWEP.Range = 900
-SWEP.Penetration = 2
+SWEP.Penetration = 40
 SWEP.DamageType = DMG_BULLET
 SWEP.MuzzleVelocity = 800
 
@@ -59,19 +59,19 @@ SWEP.Tracer = "tracer_blue"
 SWEP.HullSize = 1
 
 SWEP.ChamberSize = 0
-SWEP.Primary.ClipSize = 5
+SWEP.Primary.ClipSize = 6
 
-SWEP.RecoilSide = 0.05
+SWEP.RecoilSide = 0.015
 SWEP.RecoilRise = 0.1
-SWEP.Recoil = 1.3
+SWEP.Recoil = 0.9
 
-SWEP.Delay = 60 / 80
+SWEP.Delay = 60 / 90
 SWEP.Num = 1
 SWEP.Firemode = 1
 SWEP.Firemodes = {
-    {
-		Mode = 2,
-    },
+    -- {
+	-- 	Mode = 2,
+    -- },
     -- {
     --     Mode = -3,
     --     PostBurstDelay = 0.1,

@@ -8,7 +8,7 @@ SWEP.AdminOnly = false
 SWEP.Slot = 1 
 
 -- Trivia
-SWEP.Category = "[ArcCW] Kraken's CGI Galactic pack"
+SWEP.Category = "[ArcCW] CN Special Forces Weapons"
 SWEP.Credits = "Kraken (Discord: @elbestiamasita)"
 SWEP.PrintName = "Vibrokatana"
 SWEP.Trivia_Class = "Blaster Sniper Rifle"
