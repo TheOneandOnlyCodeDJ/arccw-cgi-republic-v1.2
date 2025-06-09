@@ -70,16 +70,16 @@ SWEP.Num = 1
 SWEP.Firemode = 2
 SWEP.Firemodes = {
     {
-		Mode = 2,
+        Mode = 2,
     },
     {
         Mode = -3,
         Mult_RPM = 2,
-		RunawayBurst = 1,
+        RunawayBurst = 1,
         PostBurstDelay = 0.25,
     },
-	{
-		Mode = 0,
+    {
+        Mode = 0,
     }
 }
 
@@ -116,8 +116,8 @@ SWEP.Hook_AddShootSound = function(wep, data)
     end
 end
 ]]
-SWEP.FirstShootSound = "ArcCW_Kraken.SW_A280"
-SWEP.ShootSound = "ArcCW_Kraken.SW_A280"
+SWEP.FirstShootSound = "arccw/kraken/sw_galactic/weapons/a280/sw02_weapons_blasters_a280_laser_close_var_01_01.wav"
+SWEP.ShootSound = "arccw/kraken/sw_galactic/weapons/a280/sw02_weapons_blasters_a280_laser_close_var_01_01.wav"
 -- SWEP.DistantShootSound = "ArcCW_Kraken.StandardCorebass"
 SWEP.ShootSoundSilenced = "ArcCW_Kraken.RifleSupp"
 
@@ -273,7 +273,7 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "reload_short",
         LHIK = true,
-		MinProgress = 0.9,
+        MinProgress = 0.9,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         SoundTable = {
             {s = path .. "wfoly_plr_ar_falima_reload_start.ogg", t = 0.033},
@@ -281,27 +281,27 @@ SWEP.Animations = {
             {s = path .. "wfoly_plr_ar_falima_reload_magout_01.ogg", t = 0.65},
             {s = path .. "wfoly_plr_ar_falima_reload_arm.ogg", t = 0.75},
             {s = path .. "wfoly_plr_ar_falima_reload_elbow.ogg", t = 1.45},
-			{s = path .. "wfoly_plr_ar_falima_reload_magin_v2_01.ogg", t = 1.5},
-			{s = path .. "wfoly_plr_ar_falima_reload_magin_v2_02.ogg", t = 1.75},
+            {s = path .. "wfoly_plr_ar_falima_reload_magin_v2_01.ogg", t = 1.5},
+            {s = path .. "wfoly_plr_ar_falima_reload_magin_v2_02.ogg", t = 1.75},
             {s = "ArcCW_Kraken.OverheatReplenished", t = 1.6},
-			{s = path .. "wfoly_plr_ar_falima_reload_end.ogg", t = 2.06},
+            {s = path .. "wfoly_plr_ar_falima_reload_end.ogg", t = 2.06},
         },
     },
     ["reload_empty"] = {
         Source = "reload",
         LHIK = true,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
-		MinProgress = 0.9,
+        MinProgress = 0.9,
         SoundTable = {
             {s = path .. "wfoly_plr_ar_falima_reload_empty_start.ogg", t = 0},
             {s = path .. "wfoly_plr_ar_falima_reload_empty_rotate.ogg", t = 0.46},
             {s = path .. "wfoly_plr_ar_falima_reload_empty_magout_01.ogg", t = 0.73},
             {s = path .. "wfoly_plr_ar_falima_reload_empty_shake.ogg", t = 0.93},
             {s = path .. "wfoly_plr_ar_falima_reload_empty_arm.ogg", t = 1.63},
-			{s = path .. "wfoly_plr_ar_falima_reload_empty_magin_v2_01.ogg", t = 1.83},
-			{s = path .. "wfoly_plr_ar_falima_reload_empty_magin_v2_02.ogg", t = 2.1},
+            {s = path .. "wfoly_plr_ar_falima_reload_empty_magin_v2_01.ogg", t = 1.83},
+            {s = path .. "wfoly_plr_ar_falima_reload_empty_magin_v2_02.ogg", t = 2.1},
             {s = path .. "wfoly_plr_ar_falima_reload_empty_elbow.ogg", t = 2.2},
-			{s = path .. "wfoly_plr_ar_falima_reload_empty_boltopen_01.ogg", t = 2.66},
+            {s = path .. "wfoly_plr_ar_falima_reload_empty_boltopen_01.ogg", t = 2.66},
             {s = path .. "wfoly_plr_ar_falima_reload_empty_boltclose_01.ogg", t = 2.96},
             {s = path .. "wfoly_plr_ar_falima_reload_empty_end.ogg", t = 3},
         },
@@ -309,19 +309,19 @@ SWEP.Animations = {
     ["ready"] = {
         Source = "draw_short",
         LHIK = true,
-		MinProgress = 0.5,
+        MinProgress = 0.5,
         SoundTable = {
             {s = path .. "wfoly_plr_ar_falima_raise_start.ogg", t = 0/30},
-			{s = path .. "wfoly_plr_ar_falima_raise_settle.ogg", t = 0/30},
+            {s = path .. "wfoly_plr_ar_falima_raise_settle.ogg", t = 0/30},
         },
     },
     ["draw"] = {
         Source = "draw_short",
         LHIK = true,
-		MinProgress = 0.5,
+        MinProgress = 0.5,
         SoundTable = {
             {s = path .. "wfoly_plr_ar_falima_raise_start.ogg", t = 0/30},
-			{s = path .. "wfoly_plr_ar_falima_raise_settle.ogg", t = 0/30},
+            {s = path .. "wfoly_plr_ar_falima_raise_settle.ogg", t = 0/30},
         },
     },
     ["holster"] = {

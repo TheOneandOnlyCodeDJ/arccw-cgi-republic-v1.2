@@ -7,7 +7,7 @@ SWEP.AdminOnly = false
 SWEP.Slot = 4 
 
 -- Trivia
-SWEP.Category = "[ArcCW] Kraken's Galactic Expansion v2"
+SWEP.Category = "[ArcCW] Kraken's Galactic Expansion - Vol. I"
 SWEP.Credits = "Kraken (Discord: @elbestiamasita)"
 SWEP.PrintName = "DLT-16"
 SWEP.Trivia_Class = "Prototype Heavy Rifle"
@@ -130,7 +130,7 @@ SWEP.ShootPitchVariation = 0.2
 
 SWEP.FirstShootSound = "ArcCW_Kraken.SW_DLT16"
 SWEP.ShootSound = "ArcCW_Kraken.SW_DLT16"
-SWEP.DistantShootSound = "ArcCW_Kraken.StandardCorebass"
+-- SWEP.DistantShootSound = "ArcCW_Kraken.StandardCorebass"
 SWEP.ShootSoundSilenced = "ArcCW_Kraken.RifleSupp"
 
 SWEP.NoFlash = nil

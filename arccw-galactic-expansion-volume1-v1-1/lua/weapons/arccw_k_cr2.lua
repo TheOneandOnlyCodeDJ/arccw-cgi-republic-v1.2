@@ -122,7 +122,7 @@ end
 
 SWEP.FirstShootSound = "ArcCW_Kraken.SW_CR2"
 SWEP.ShootSound = "ArcCW_Kraken.SW_CR2"
-SWEP.DistantShootSound = "ArcCW_Kraken.StandardCorebass"
+-- SWEP.DistantShootSound = "ArcCW_Kraken.StandardCorebass"
 SWEP.ShootSoundSilenced = "ArcCW_Kraken.RifleSupp"
 
 SWEP.MuzzleFlashColor = Color(0, 250, 0)

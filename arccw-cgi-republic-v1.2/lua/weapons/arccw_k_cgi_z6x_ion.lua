@@ -8,7 +8,7 @@ SWEP.AdminOnly = false
 SWEP.Slot = 3 
 
 -- Trivia
-SWEP.Category = "[ArcCW] Kraken's CGI Galactic pack"
+SWEP.Category = "[ArcCW] CN Special Forces Weapons"
 SWEP.Credits = "Kraken (Discord: @elbestiamasita)"
 SWEP.PrintName = "Z-6 Mortar"
 SWEP.Trivia_Class = "Blaster Mortar"
@@ -65,18 +65,18 @@ SWEP.Firemodes = {
     }
 }
 
-local s = "ArcCW_Kraken.OverheatWarn"
-local p = {
-    [2] = 80,
-    [1] = 90,
-    [0] = 100,
-}
-SWEP.Hook_AddShootSound = function(wep, data)
-    local pitch = p[wep:Clip1()]
-    if pitch then
-        wep:MyEmitSound(s, 100, pitch, 0.5, CHAN_AUTO)
-    end
-end
+-- local s = "ArcCW_Kraken.OverheatWarn"
+-- local p = {
+--     [2] = 80,
+--     [1] = 90,
+--     [0] = 100,
+-- }
+-- SWEP.Hook_AddShootSound = function(wep, data)
+--     local pitch = p[wep:Clip1()]
+--     if pitch then
+--         wep:MyEmitSound(s, 100, pitch, 0.5, CHAN_AUTO)
+--     end
+-- end
 
 SWEP.AccuracyMOA = 5
 SWEP.HipDispersion = 250

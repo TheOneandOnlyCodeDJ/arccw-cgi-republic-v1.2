@@ -130,7 +130,7 @@ end
 
 SWEP.FirstShootSound = "ArcCW_Kraken.SW_M45"
 SWEP.ShootSound = "ArcCW_Kraken.SW_M45"
-SWEP.DistantShootSound = "ArcCW_Kraken.HeavyCorebass"
+-- SWEP.DistantShootSound = "ArcCW_Kraken.HeavyCorebass"
 SWEP.ShootSoundSilenced = "ArcCW_Kraken.RifleSupp"
 
 SWEP.BulletBones = {
